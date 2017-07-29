@@ -1,0 +1,23 @@
+{
+  "name": "luxuryvehicleswebsite",
+  "version": "1.0.0",
+  "description": "This is our group project for Luxury Vehicles Website.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wonmaungthein/LuxuryVehiclesWebsite.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wonmaungthein/LuxuryVehiclesWebsite/issues"
+  },
+  "homepage": "https://github.com/wonmaungthein/LuxuryVehiclesWebsite#readme",
+  "dependencies": {
+    "express": "^4.15.3",
+    "express-handlebars": "^3.0.0"
+  }
+}
