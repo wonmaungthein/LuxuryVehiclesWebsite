@@ -1,0 +1,22 @@
+nav {
+    border: 3px solid purple;
+    background-color: #99803e;
+}
+
+img.logo {
+    width: 40px;
+}
+
+header {
+    background-color: black;
+    flex-direction: row;
+}
+
+#logoTitle {
+    color: white;
+}
+
+button {
+    background-color: darkred;
+    color: white;
+}
