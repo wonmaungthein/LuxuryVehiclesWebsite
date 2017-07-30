@@ -20,3 +20,35 @@ button {
     background-color: darkred;
     color: white;
 }
+
+/*This are for fonts Lato for main body text and Lora for accent text*/
+font-family: 'Lato', sans-serif;
+font-family: 'Lora', serif;
+
+.topPageBackground {
+    background-color: #333333;
+    border: 3px solid black;
+}
+
+.mainCar {
+    width: 100%;
+    height: 100%;
+}
+
+.blueBackGroundBox {
+    background-color: #5DADE2;
+}
+
+.yellowishBackgroundBox {
+    background-color: #99803e;
+}
+
+.lineBreak {
+    color: #99803e;
+    size: 10px;
+}
+
+.Cars {
+    width: 250px;
+    height: 150px;
+} 
