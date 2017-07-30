@@ -22,12 +22,32 @@ button {
 }
 
 /*This are for fonts Lato for main body text and Lora for accent text*/
-font-family: 'Lato', sans-serif;
-font-family: 'Lora', serif;
+/*font-family: 'Lato', sans-serif;
+font-family: 'Lora', serif;*/
+
+.Paragraph {
+    justify-content: center;
+    text-align: center;
+    font-size: 15px;
+}
+
+
+subtitle{
+        font-family: 'lato',sans-serif;
+            font-size: 25px;
+
+}
+.bigTitleCenter {
+padding-left: 40%;  
+font-family: 'lora',serif;
+font-size: 40px;
+
+}
 
 .topPageBackground {
     background-color: #333333;
     border: 3px solid black;
+    color: white;
 }
 
 .mainCar {
@@ -37,10 +57,16 @@ font-family: 'Lora', serif;
 
 .blueBackGroundBox {
     background-color: #5DADE2;
+    border: 3px solid yellow;
+    width: 50%;
 }
 
 .yellowishBackgroundBox {
     background-color: #99803e;
+        border: 3px solid yellow;
+            width: 50%;
+
+
 }
 
 .lineBreak {
@@ -51,4 +77,13 @@ font-family: 'Lora', serif;
 .Cars {
     width: 250px;
     height: 150px;
+    border: 2px solid blueviolet;
 } 
+
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+
+}
