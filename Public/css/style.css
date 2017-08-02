@@ -1,112 +1,139 @@
-nav {
-    border: 3px solid purple;
-    background-color: #99803e;
+
+#what{
+    background: #333333;
+    color:white;
+    font-family: 'lora',serif;
 }
 
-img.logo {
-    width: 40px;
-}
-
-header {
-    background-color: black;
-    flex-direction: row;
-}
-
-#logoTitle {
-    color: white;
-}
-
-button {
-    background-color: darkred;
-    color: white;
-}
-
-/*This are for fonts Lato for main body text and Lora for accent text*/
-/*font-family: 'Lato', sans-serif;
-font-family: 'Lora', serif;*/
-
-.Paragraph {
-    justify-content: center;
-    text-align: center;
-    font-size: 15px;
+#whatPeople{
+    padding-top: 26px;
 }
 
 
-subtitle{
-        font-family: 'lato',sans-serif;
-            font-size: 25px;
-
-}
-.bigTitleCenter {
-padding-left: 40%;  
-font-family: 'lora',serif;
-font-size: 40px;
-
-}
-
-.topPageBackground {
-    background-color: #333333;
-    border: 3px solid black;
-    color: white;
-}
-
-body {
-    background-image: url("./Public/img/bigCar.jpg")
-}
-.mainCar {
-    width: 100%;
-    height: 100%;
-}
-
-.blueBackGroundBox {
-    background-color: #5DADE2;
-    border: 3px solid yellow;
-    width: 50%;
-}
-
-.yellowishBackgroundBox {
-    background-color: #99803e;
-        border: 3px solid yellow;
-            width: 50%;
-
-
-}
-
-.lineBreak {
+.quote1 {
     color: #99803e;
-    size: 10px;
+    font-size: 166px;
+    font-family: 'lora',serif;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+.quote2 {
+    color: #99803e;
+    font-size: 166px;
+    font-family: 'lora',serif;
+    margin-top: 20px;
+    box-sizing: border-box;    
 }
 
-.Cars {
-    width: 250px;
-    height: 20rem;
-    border: 2px solid blueviolet;
-    width: 30rem;
-} 
+.bluehr{
+  -moz-border-bottom-colors: none;
+  -moz-border-image: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-top-colors: none;
+  border-color: #EEEEEE -moz-use-text-color #FFFFFF;
+  border-style: solid none;
+  border-width: 3px 0;
+  margin: 18px 0;
+  color:#728dd9;
+  margin-left:auto;
+  margin-right:auto;
+  width: 80%;
+}
 
-section {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-
+.yellowhr{
+  -moz-border-bottom-colors: none;
+  -moz-border-image: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-top-colors: none;
+  border-color: #EEEEEE -moz-use-text-color #FFFFFF;
+  border-style: solid none;
+  border-width: 3px 0;
+  margin: 18px 0;
+  color:#99803e;
+  margin-left:auto;
+  margin-right:25px;;
 
 }
 
-.topRow {
-    display: flex;
-    flex-direction: row;
-    border: 5px solid blue;
-    height: 20rem;
-    
-
+p{
+    color: white;
+    font-size: 22px;   
 }
 
 
-.bottomRow {
-     display: flex;
-    flex-direction: row;
-    border: 5px solid red;
-    height: 20rem;
-    
+.author{
+       color: #99803e ;
+    font-size: 20px;  
+}
 
+#visit{
+    border-radius: 0;
+    margin-top: -100px;
+}
+
+
+#contact{
+    border-radius: 0;
+    margin-top: 30px;
+    background-color:transparent;
+    border-color:white;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-bottom: 50px;
+    border-width: 2px;
+    font-size: 27px;
+    margin-bottom: 100px;
+
+
+}
+/*I dont know how to add a border when hovering everything moves*/
+#contact:hover{
+    border-radius: 0;
+    margin-top: 30px;
+    background-color:transparent;
+    border-color:grey;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-bottom: 50px;
+    border-width: 2px;
+    font-size: 27px;
+    margin-bottom: 100px;
+    box-shadow: solid grey;
+    box-sizing: border-box;
+    color: grey;
+
+}
+
+#contactus{
+    -moz-transform:rotate(-3deg);
+-webkit-transform:rotate(-3deg);
+overflow: hidden;
+display: block;
+overflow: hidden;
+z-index: 2;
+
+}
+
+div.col.text-center.norotate{
+        -moz-transform:rotate(3deg);
+-webkit-transform:rotate(3deg);
+
+}
+
+.contactlist{
+     color:white;
+    font-family: 'lora',serif;
+    padding-top: 20px;
+}
+
+h1.contactlist.first{
+    margin-top: 100px;
+}
+
+#footer{
+    width: 80%;
+    margin: auto;
+    margin-top: 200px;
 }
