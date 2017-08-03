@@ -21,7 +21,6 @@ button {
     margin-right: 3rem;
 }
 
-
 .yellowishBackgroundBox {
     background-color: #99803e;
     /*border: 3px solid yellow;*/
@@ -32,7 +31,6 @@ button {
     padding-top: 1rem;
     margin-left: 3rem;
 }
-
 
 .blueBackGroundBox button {
     width: 10rem;
@@ -56,16 +54,42 @@ button {
     /*border: 2px solid blueviolet;*/
     width: 28rem;
 } 
+/*
+.frontTextofBigCar::before {
+    background-color: #333333;*/
+/*}*/
+
+.backgroundMainPicture {
+    height: 35rem;
+    padding-top: 0rem;
+    margin-top: -4rem;
+    clip-path: polygon(0 11%, 100% 11%, 100% 85%,0 100%);
+}
 
 .frontTextofBigCar {
     /*border: 3px solid blue;*/
-    height: 40rem;
-    padding-left: 4rem;
-    padding-top: 6rem;
+    height: 30rem;
+    padding-left: 6rem;
+    padding-top: 9rem;
     font-family:'lora',serif;
     font-size: 1.7rem;
     color: white;
+    background: url("../img/bigCar.jpg") no-repeat;
+    background-size: contain;
+    /*clip-path: polygon(0 0, 100% 0, 100% 85%,0 100%);*/
 }
+
+.radio {
+    color: white;
+}
+
+nav > a {
+    text-decoration: none;
+    color: white;
+    font-family: 'lato',sans-serif;
+    padding-left: 5px;
+    padding-right: 5px;
+    }
 
 header {
     background-color: black;
@@ -183,6 +207,8 @@ section {
     background-color: #333333;
     border: 3px solid black;
     color: white;
+    margin-top: -9rem;
+    padding-top: 9rem;
 }
 
 .wholeParagraph{
