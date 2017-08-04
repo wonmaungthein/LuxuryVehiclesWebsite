@@ -111,9 +111,16 @@ p{
 -webkit-transform:rotate(-3deg);
 overflow: hidden;
 display: block;
-overflow: hidden;
+  position:relative;
 z-index: 2;
-
+background-image: url('http://freebigpictures.com/wp-content/uploads/sunset-forest.jpg');
+    background-repeat:no-repeat;
+    background-position:center center;
+    -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        max-width: 'initial'
 }
 
 div.col.text-center.norotate{
@@ -131,9 +138,70 @@ div.col.text-center.norotate{
 h1.contactlist.first{
     margin-top: 100px;
 }
+.downhr{
+      -moz-border-bottom-colors: none;
+  -moz-border-image: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-top-colors: none;
+  border-color: #EEEEEE -moz-use-text-color #FFFFFF;
+  border-style: solid none;
+  border-width: 3px 0;
+  margin: 18px 0;
+  color:#99803e;
+  margin-left:auto;
+  margin-right:25px;;
+  margin-top:50px;
 
+}
 #footer{
     width: 80%;
     margin: auto;
-    margin-top: 200px;
+    margin-top: 100px;
+    display:flex;
 }
+
+#rights{
+        width: 80%;
+    margin: auto;
+    display:flex;
+}
+
+
+.icons{
+    font-size: 42px;
+    color:#99803e;
+    padding-right:28px;
+}
+
+#copywright{
+    font-size:12px;
+}
+
+.brownish{
+    color:#99803e;
+}
+
+.footeradjust{
+    font-size:18px;
+    font-family: "lato";
+}
+/**
+@media screen and (max-width: 767px) {
+.quote1 {
+    color: #99803e;
+    font-size: 26px;
+    font-family: 'lora',serif;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+.quote2 {
+    color: #99803e;
+    font-size: 26px;
+    font-family: 'lora',serif;
+    margin-top: 20px;
+    box-sizing: border-box;    
+}
+}
+
+**/
