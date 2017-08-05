@@ -1,51 +1,93 @@
-
-
-@media screen and (max-width: 320px) {
     header {
-        background-color: black;
+            background-color: black;
+    }
+
+    #logoTitle {
+        color: white;
+        font-family: 'lora',serif;
+    }   
+
+    .navContainer > a {
+        font-family: 'lato',sans-serif;
+        text-decoration: none;
+    }
+
+    .darked {
+        background-color: darkred;
+    }
+
+    .white {
+        color: white;
+    }
+
+    .lineBreak {
+        color: #99803e;
+    }
+
+
+    .yellowishBackground {
+        background-color: #99803e;
+        width: 39rem;
+    }
+
+    .bottomRow {
+        display: flex;
+    }
+
+    .blueBackGroundBox {
+        background-color:#2F6080;
+    }
+
+        h4{
+        font-family: 'lato',sans-serif;
+        }
+
+    .topPageBackground {
+        background-color: #333333;
+        border: 3px solid black;
+        /*color: white;*/
+    }
+
+    .Paragraph {
+        color: whitesmoke;
+        font-family: 'lato',sans-serif;
+    }
+
+@media screen and (min-width: 320px) {
+    header {
         display: flex;
         flex-direction: column;
         height: 6rem;
-        width: 20rem;
+        width: 39rem;
     }
 
     img.logo {
-        width: 4rem;
-        margin-left: 12%;
-        margin-top: 2.5%;
+        width: 3rem;
+        margin-left: 18%;
+        margin-top: 3.5%;
         margin-bottom: -3%;
         /*border: 3px solid white;*/
     }
 
     #logoTitle {
-        margin-left: 24%;
+        margin-left: 29%;
         margin-bottom: 0%;
-        margin-top: -7%;
+        margin-top: -4%;
         /*border: 3px solid white;*/
         width: 32rem;
         display: flex;
         flex-direction: row;
-        font-family: 'lora',serif;
-        font-size: 20px;    
-    }
-
-    #logoTitle {
-        color: white;
+        font-size: 24px;
     }
 
     nav {
-        /*border: 3px solid purple;*/
-        background-color: #99803e;
         height: 2rem;
-        padding-left: 3rem;
+        padding-left: 13rem;
         padding-top: 8px;
         width: 20rem;
     }
 
-    nav > a {
-        text-decoration: none;
-        color: white;
-        font-family: 'lato',sans-serif;
+    .navContainer > a {
         padding-left: 3px;
         padding-right: 3px;
         font-size: 10px;
@@ -54,19 +96,28 @@
         }
 
     .backgroundMainPicture {
+        height: 29rem;
+        width: 39rem;
+        
+        .backgroundMainPicture {
         height: 9rem;
         padding-top: 4rem;
         margin-top: -4rem;
         clip-path: polygon(0 0%, 100% 0%, 100% 83%,0 95%);
     }
-
-    button {
-        background-color: darkred;
-        color: white;
+        margin-top: -5rem;
+        :
+    .backgroundMainPicture {
+        height: 9rem;
+        padding-top: 4rem;
+        margin-top: -4rem;
+        clip-path: polygon(0 0%, 100% 0%, 100% 83%,0 95%);     }
+        clip-path:;
+        clip-path: polygon (0 0%,100% 0%, 100% 83%,0 95%);
     }
 
     .bigTitleCenter {
-        padding-left: 23%;  
+        padding-left: 36%;
         font-family: 'lora',serif;
         font-size: 24px;
         padding-top: 0%;
@@ -74,9 +125,8 @@
     }
 
     .blueBackGroundBox {
-        background-color:#2F6080;
         /*border: 3px solid yellow;*/
-        width: 11rem;
+        width: 36rem;
         padding-left: 8px;
         padding-right: 17px;
         /*padding-bottom: 3rem;*/
@@ -85,29 +135,28 @@
     }
 
     .yellowishBackgroundBox {
-        background-color: #99803e;
         /*border: 3px solid yellow;*/
-        width: 17rem;
+        width: 35.5rem;
         padding-left: 8px;
         padding-right: 17px;
         /*padding-bottom: 3rem;*/
         /*padding-top: 1rem;*/
         /*margin-left: 0rem;*/
+        height: 31rem;
     }
 
     .blueBackGroundBox button {
         width: 10rem;
-        margin-left: 3.5rem;
-        
+        margin-left: 0.5rem;
     }
 
     .blueBackGroundBox p {
         line-height: 18px;
-        font-size: 
+        padding-left: 1rem;
+        font-size:;
     }
 
     .bottomRow {
-        display: flex;
         flex-direction: column;
         justify-content: space-between;
         /*border: 5px solid red;*/
@@ -116,50 +165,39 @@
 
     .Cars {
         /*width: 230px;*/
-        height: 10rem;
+        height: 18rem;
         /*border: 2px solid blueviolet;*/
-        width: 19rem;
+        width: 37rem;
     } 
     
-
     .frontTextofBigCar {
         /*border: 3px solid blue;*/
-        height: 12rem;
-        padding-left: 1rem;
-        padding-top: 2rem;
+        height: 14rem;
+        padding-left: 4rem;
+        padding-top: 6rem;
         font-family:'lora',serif;
-        font-size: 10px;
-        color: white;
         background: url("../img/bigCar.jpg") no-repeat;
         background-size: contain;
         /*clip-path: polygon(0 0, 100% 0, 100% 85%,0 100%);*/
     }
 
-    .radio {
-        color: white;
-    }
-
-
     .lineBreak {
-        color: #99803e;
         size: 10px;
     }
 
     .mainButton {
-        background-color: darkred;
-        color: white;
-        width: 59px;
-        height: 26px;
+        width: 74px;
+        height: 36px;
         font-family: 'lato',sans-serif;
-        font-size: 5px;
+        font-size: 6px;
     }
 
     .mainTitle {
         /*border: 2px solid red;*/
         width: 65%;
         height: 22%;
-        font-size: 15px;
-        margin-bottom: -2px;
+        font-size: 17px;
+        margin-bottom: 12px;
     }
 
     .mainCar {
@@ -178,13 +216,10 @@
         /*padding-bottom: 2%;*/
         margin-top: 3%;
         line-height: 1.2rem;
-        font-family: 'lato',sans-serif;
-        color: whitesmoke;
         height: 7rem;
     }
 
     h4{
-        font-family: 'lato',sans-serif;
         font-size: 18px;
         text-align: center;
         /*border: 1px solid yellow;*/
@@ -202,7 +237,7 @@
 
     .titleHeading {
         font-family: 'lora',serif;
-        font: 20px;
+        font-size: 24px;
         align-items: center;
     }
     .topRow {
@@ -216,15 +251,13 @@
     }
 
     .topPageBackground {
-        background-color: #333333;
-        border: 3px solid black;
-        color: white;
-        margin-top: -9rem;
-        padding-top: 9rem;
-        height: 97rem;
+        margin-top: -12rem;
+        width: 38rem;
+        padding-left: 1rem;
+        padding-top: 1rem;
+        height: 98rem;
     }
     
-
     .wholeParagraph{
         /*border: 2px solid greenyellow;*/
         margin-top: 1px;
@@ -234,69 +267,59 @@
     .wholePageborder{
         /*border: 2px solid greenyellow;*/
         padding-left: 0rem;
-        padding-right: 0rem;
+        padding-right: 1rem;
         padding-bottom: 0rem;
+        height: 98rem;
     }
 
     .yellowishBackgroundBox button {
         width: 10rem;
-        margin-left: 3.5rem;
+        margin-left: 1.5rem;
     }
 
     .yellowishBackgroundBox p {
         line-height: 30px;
+        padding-left: 1rem;
         /*border: 1px solid red;*/
     }
 }
 
 
-
-@media screen and (max-width: 375px) {
+@media screen and (min-width: 375px) {
     header {
-        background-color: black;
         display: flex;
         flex-direction: column;
         height: 6rem;
-        width: 20rem;
+        width: 26rem;
     }
 
     img.logo {
-        width: 2rem;
-        margin-left: 1%;
-        margin-top: 10.5%;
+        width: 3rem;
+        margin-left: 10%;
+        margin-top: 7.5%;
         margin-bottom: -3%;
         /*border: 3px solid white;*/
     }
 
     #logoTitle {
-        margin-left: 18%;
+        margin-left: 25%;
         margin-bottom: 0%;
-        margin-top: -7%;
+        margin-top: -8%;
         /*border: 3px solid white;*/
         width: 32rem;
         display: flex;
         flex-direction: row;
-        font-family: 'lora',serif;
-        font-size: 20px;    
+        font-size: 20px;
     }
 
-    #logoTitle {
-        color: white;
-    }
-
-    nav {
-        /*border: 3px solid purple;*/
-        background-color: #99803e;
+    .navContainer {
         height: 2rem;
-        padding-left: 3rem;
+        padding-left: 6rem;
         padding-top: 8px;
         width: 20rem;
     }
 
-    nav > a {
-        text-decoration: none;
-        color: white;
-        font-family: 'lato',sans-serif;
+    .navContainer > a {
         padding-left: 3px;
         padding-right: 3px;
         font-size: 10px;
@@ -305,20 +328,10 @@
         }
 
     .backgroundMainPicture {
-        height: 11rem;
+        height: 13rem;
         padding-top: 4rem;
         margin-top: -4rem;
         clip-path: polygon(0 0%, 100% 0%, 100% 83%,0 95%);
-    }
-
-
-    body {
-        /*background: red;*/
-    }
-
-    button {
-        background-color: darkred;
-        color: white;
     }
 
     .bigTitleCenter {
@@ -330,9 +343,7 @@
     }
 
     .blueBackGroundBox {
-        background-color:#2F6080;
-        /*border: 3px solid yellow;*/
-        width: 18rem;
+        width: 20.5rem;
         padding-left: 8px;
         padding-right: 17px;
         /*padding-bottom: 3rem;*/
@@ -341,9 +352,7 @@
     }
 
     .yellowishBackgroundBox {
-        background-color: #99803e;
-        /*border: 3px solid yellow;*/
-        width: 18rem;
+        width: 20rem;
         padding-left: 8px;
         padding-right: 17px;
         /*padding-bottom: 3rem;*/
@@ -353,8 +362,7 @@
 
     .blueBackGroundBox button {
         width: 10rem;
-        margin-left: 3.5rem;
-        
+        margin-left: 5.5rem;
     }
 
     .blueBackGroundBox p {
@@ -363,40 +371,31 @@
 
     .Cars {
         /*width: 230px;*/
-        height: 11rem;
+        height: 13rem;
         /*border: 2px solid blueviolet;*/
-        width: 19.5rem;
+        width: 21.5rem;
     } 
     
 
     .frontTextofBigCar {
         /*border: 3px solid blue;*/
         height: 12rem;
-        padding-left: 1rem;
-        padding-top: 2rem;
+        padding-left: 2rem;
+        padding-top: 3rem;
         font-family:'lora',serif;
         font-size: 10px;
-        color: white;
         background: url("../img/bigCar.jpg") no-repeat;
         background-size: contain;
         /*clip-path: polygon(0 0, 100% 0, 100% 85%,0 100%);*/
     }
 
-    .radio {
-        color: white;
-    }
-
-
     .lineBreak {
-        color: #99803e;
         size: 10px;
     }
 
     .mainButton {
-        background-color: darkred;
-        color: white;
-        width: 59px;
-        height: 26px;
+        width: 77px;
+        height: 29px;
         font-family: 'lato',sans-serif;
         font-size: 5px;
     }
@@ -405,8 +404,8 @@
         /*border: 2px solid red;*/
         width: 65%;
         height: 22%;
-        font-size: 15px;
-        margin-bottom: -2px;
+        font-size: 17px;
+        margin-bottom: 13px;
     }
 
     .mainCar {
@@ -415,7 +414,6 @@
         background-image: "./Public/img/bigCar.jpg";
         background-size: contain;    
     }
-
 
     .Paragraph {
         justify-content: center;
@@ -426,13 +424,10 @@
         /*padding-bottom: 2%;*/
         margin-top: 3%;
         line-height: 1.2rem;
-        font-family: 'lato',sans-serif;
-        color: whitesmoke;
         height: 7rem;
     }
 
     h4{
-        font-family: 'lato',sans-serif;
         font-size: 18px;
         text-align: center;
         /*border: 1px solid yellow;*/
@@ -445,11 +440,9 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        height: 25rem;
+        height: 24rem;
     }
 
-
-    
     .titleHeading {
         font-family: 'lora',serif;
         font: 20px;
@@ -466,24 +459,18 @@
     }
 
     .bottomRow {
-        display: flex;
         flex-direction: column;
         justify-content: space-between;
         /*border: 5px solid red;*/
         height: 32.5rem;
     }
 
-
     .topPageBackground {
-        background-color: #333333;
-        border: 3px solid black;
-        color: white;
         margin-top: -9rem;
         padding-top: 9rem;
         height: 97rem;
     }
     
-
     .wholeParagraph{
         /*border: 2px solid greenyellow;*/
         margin-top: 1px;
@@ -494,13 +481,13 @@
     .wholePageborder{
         /*border: 2px solid greenyellow;*/
         padding-left: 0rem;
-        padding-right: 0rem;
+        padding-right: 5rem;
         padding-bottom: 0rem;
     }
 
     .yellowishBackgroundBox button {
         width: 10rem;
-        margin-left: 3.5rem;
+        margin-left: 5.5rem;
     }
 
     .yellowishBackgroundBox p {
@@ -509,11 +496,8 @@
     }
 }
 
-
-
-@media screen and (max-width: 425px) {
+@media screen and (min-width: 425px) {
     header {
-        background-color: black;
         display: flex;
         flex-direction: column;
         height: 6rem;
@@ -529,24 +513,18 @@
     }
 
     #logoTitle {
-        margin-left: 30%;
+        margin-left: 23%;
         margin-bottom: 0%;
         margin-top: -6%;
         /*border: 3px solid white;*/
         width: 32rem;
         display: flex;
         flex-direction: row;
-        font-family: 'lora',serif;
-        font-size: 23px;    
+        font-size: 23px;
     }
 
-    #logoTitle {
-        color: white;
-    }
 
     nav {
-        /*border: 3px solid purple;*/
-        background-color: #99803e;
         height: 2rem;
         padding-left: 3rem;
         padding-top: 8px;
@@ -559,7 +537,7 @@
 
     .navContainer > a {
         text-decoration: none;
-        color: white;
+        /*color: white;*/
         font-family: 'lato',sans-serif;
         padding-left: 3px;
         padding-right: 3px;
@@ -576,14 +554,8 @@
         width: 32rem; 
     }
 
-
-    button {
-        background-color: darkred;
-        color: white;
-    }
-
     .bigTitleCenter {
-        padding-left: 33%;  
+        padding-left: 31%;
         font-family: 'lora',serif;
         font-size: 24px;
         padding-top: 0%;
@@ -591,20 +563,17 @@
     }
 
     .blueBackGroundBox {
-        background-color:#2F6080;
-        /*border: 3px solid yellow;*/
-        width: 28rem;
+        width: 22rem;
+        height: 19rem;
         padding-left: 8px;
-        padding-right: 17px;
+        padding-right: 23px;
         /*padding-bottom: 3rem;*/
         /*padding-top: 1rem;*/
         /*margin-right: 3rem;*/
     }
 
     .yellowishBackgroundBox {
-        background-color: #99803e;
-        /*border: 3px solid yellow;*/
-        width: 28rem;
+        width: 22.5rem;
         padding-left: 8px;
         padding-right: 17px;
         /*padding-bottom: 3rem;*/
@@ -614,21 +583,21 @@
 
     .blueBackGroundBox button {
         width: 10rem;
-        margin-left: 9.5rem;
-        
+        margin-left: 7.5rem;
     }
 
-    .blueBackGroundBox p {
-        line-height: 24px;
-        padding-left: 1rem;
+    .titleHeading {
+        font-size: 20px;
+        padding-left: -1rem;
         padding-right: 1rem;
     }
 
     .Cars {
         /*width: 230px;*/
-        height: 17rem;
+        height: 12rem;
         /*border: 2px solid blueviolet;*/
-        width: 29.5rem;
+        width: 23.9rem;
+        margin-top: 0.5rem;
     } 
     
     .frontTextofBigCar {
@@ -638,25 +607,16 @@
         padding-top: 4rem;
         font-family:'lora',serif;
         font-size: 10px;
-        color: white;
         background: url("../img/bigCar.jpg") no-repeat;
         background-size: contain;
         /*clip-path: polygon(0 0, 100% 0, 100% 85%,0 100%);*/
     }
 
-    .radio {
-        color: white;
-    }
-
-
     .lineBreak {
-        color: #99803e;
         size: 10px;
     }
 
     .mainButton {
-        background-color: darkred;
-        color: white;
         width: 77px;
         height: 33px;
         font-family: 'lato',sans-serif;
@@ -678,27 +638,23 @@
         background-size: contain;    
     }
 
-
     .Paragraph {
         justify-content: center;
         text-align: center;
-        font-size: 12px;
-        padding-left: 7%;
-        padding-right: 7%;
+        font-size: 11px;
+        padding-left: 5%;
+        padding-right: 5%;
         /*padding-bottom: 2%;*/
         margin-top: 3%;
         line-height: 1.2rem;
-        font-family: 'lato',sans-serif;
-        color: whitesmoke;
-        height: 7rem;
+        height: 5rem;
     }
 
     h4{
-        font-family: 'lato',sans-serif;
-        font-size: 15px;
+        font-size: 13px;
         text-align: center;
         /*border: 1px solid yellow;*/
-        margin-bottom: 2%;
+        margin-bottom: 13%;
         margin-top: 2%;
     }
 
@@ -710,11 +666,10 @@
         height: 11rem;
     }
 
-
     .titleHeading {
         font-family: 'lora',serif;
-        font: 23px;
-        margin-left: 9rem;
+        font-size: 23px;
+        margin-left: 6rem;
     }
     .topRow {
         display: flex;
@@ -727,44 +682,40 @@
     }
 
     .bottomRow {
-        display: flex;
         flex-direction: column;
         justify-content: space-between;
         /*border: 5px solid red;*/
         height: 31.5rem;
     }
 
-
     .topPageBackground {
-        background-color: #333333;
-        border: 3px solid black;
-        color: white;
         margin-top: -9rem;
         padding-top: 9rem;
         height: 82rem;
         width: 31rem;
     }
     
-
     .wholeParagraph{
         /*border: 2px solid greenyellow;*/
         margin-top: 1px;
-        height: 11rem;
-        width: 11.5rem;
-        padding-left: 7px;
-        padding-right: 7px;
+        height: 12rem;
+        width: 15.5rem;
+        padding-left: 2px;
+        padding-right: 2px;
     }
 
     .wholePageborder{
         /*border: 2px solid greenyellow;*/
-        padding-left: 1rem;
-        padding-right: 1rem;
-        padding-bottom: 1rem;
+        padding-left: 0rem;
+        padding-right: 0rem;
+        padding-bottom: 0rem;
+        width: 24rem;
+        /* height: 30rem; */
     }
 
     .yellowishBackgroundBox button {
         width: 10rem;
-        margin-left: 9.5rem;
+        margin-left: 6.5rem;
     }
 
     .yellowishBackgroundBox p {
@@ -775,58 +726,50 @@
     }
 }
 
-
-
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
     header {
-        background-color: black;
         display: flex;
         flex-direction: column;
-        height: 3rem;
-        width: 21rem;
+        height: 4rem;
+        width: 31rem;
     }
 
     img.logo {
-        width: 2rem;
-        margin-left: 10%;
+        width: 3rem;
+        margin-left: 16%;
         margin-top: 2.5%;
         margin-bottom: -3%;
         /*border: 3px solid white;*/
     }
 
     #logoTitle {
-        margin-left: 22%;
+        margin-left: 28%;
         margin-bottom: 0%;
         margin-top: -6%;
         /*border: 3px solid white;*/
         width: 32rem;
         display: flex;
         flex-direction: row;
-        font-family: 'lora',serif;
-        font-size: 20px;    
+        font-size: 20px;
     }
 
-    #logoTitle {
-        color: white;
-    }
-
-    nav {
-        /*border: 3px solid purple;*/
-        background-color: #99803e;
+    .navbar {
         height: 1rem;
-        padding-left: 3rem;
-        padding-top: 8px;
-        width: 18rem;
+        padding-left: 0rem;
+        padding-top: 7px;
+        padding-bottom: 1px;
+        width: 31rem;
     }
+
 
     .navContainer {
-        padding-left: 2rem;
-        margin-top: -7px;
+        padding-left: 10rem;
+        margin-top: -14px;
     }
 
     .navContainer > a {
         text-decoration: none;
-        color: white;
+        /*color: white;*/
         font-family: 'lato',sans-serif;
         padding-left: 3px;
         padding-right: 3px;
@@ -836,22 +779,20 @@
         }
 
     .backgroundMainPicture {
-        height: 10rem;
+        height: 16rem;
         padding-top: 4rem;
         margin-top: -4rem;
         clip-path: polygon(0 0%, 100% 0%, 100% 83%,0 95%);
-        width: 21rem; 
+        width: 38rem;
     }
-
 
     .frontTextofBigCar {
         /*border: 3px solid blue;*/
         height: 12rem;
-        padding-left: 1rem;
-        padding-top: 2rem;
+        padding-left: 2rem;
+        padding-top: 4rem;
         font-family:'lora',serif;
         font-size: 10px;
-        color: white;
         background: url("../img/bigCar.jpg") no-repeat;
         background-size: contain;
         /*clip-path: polygon(0 0, 100% 0, 100% 85%,0 100%);*/
@@ -861,132 +802,104 @@
         /*border: 2px solid red;*/
         width: 45%;
         height: 29%;
-        font-size: 16px;
-        margin-bottom: -8px;
+        font-size: 19px;
+        margin-bottom: 2px;
     }
 
 
     .mainButton {
-        background-color: darkred;
-        color: white;
-        width: 59px;
-        height: 26px;
+        width: 76px;
+        height: 29px;
         font-family: 'lato',sans-serif;
-        font-size: 5px;
+        font-size: 9px;
     }
 
     .topPageBackground {
-        background-color: #333333;
-        border: 3px solid black;
-        color: white;
         margin-top: -10rem;
         padding-top: 9rem;
-        height: 29rem;
-        width: 21rem;
+        height: 35rem;
+        width: 30rem;
     }
     
-    button {
-        background-color: darkred;
-        color: white;
-    }
-
 h3 {
-    font-size: 4px;
+    font-size: 6px;
 }
     .bigTitleCenter {
-        padding-left: 33%;  
+        padding-left: 39%;
         font-family: 'lora',serif;
-        font-size: 15px;
+        font-size: 18px;
         padding-top: 3%;
         margin-top: 0rem;
     }
 
-
     .Paragraph {
         justify-content: center;
         text-align: center;
-        font-size: 6px;
+        font-size: 9px;
         padding-left: -2%;
         padding-right: -2%;
         /*padding-bottom: 2%;*/
         margin-top: 3%;
         line-height: 1.2rem;
-        font-family: 'lato',sans-serif;
-        color: whitesmoke;
         height: 7rem;
     }
 
-
-
     .blueBackGroundBox {
-        background-color:#2F6080;
         /*border: 3px solid yellow;*/
-        width: 13rem;
+        width: 19rem;
         padding-left: 0px;
         padding-right: 0px;
-        height: 6rem;
-        padding-bottom: 15px;
+        height: 7rem;
+        padding-bottom: 33px;
+        margin-top: 9px;
         /*padding-top: 1rem;*/
         /*margin-right: 3rem;*/
     }
 
     .yellowishBackgroundBox {
-        background-color: #99803e;
-        /*border: 3px solid yellow;*/
-        width: 13rem;
+        width: 19rem;
         padding-left: 0px;
         padding-right: 0px;
-        height: 7rem;
+        height: 9rem;
+        margin-top: 8px;
         /*padding-bottom: 3rem;*/
         /*padding-top: 1rem;*/
         /*margin-left: 0rem;*/
     }
 
     .blueBackGroundBox button {
-        width: 3rem;
-        margin-left: 5.5rem;
-        margin-top: 1.6rem;
-        
+        width: 5rem;
+        margin-left: 1rem;
+        margin-top: 2.6rem;
     }
 
     .blueBackGroundBox p {
         line-height: 12px;
-        font-size: 6px;
+        font-size: 10px;
         padding-left: 1rem;
         padding-right: 1rem;
         height: 1rem;
     }
 
-
     .yellowishBackgroundBox p {
         line-height: 12px;
-        font-size: 6px;
+        font-size: 10px;
         padding-left: 1rem;
         padding-right: 1rem;
         height: 1rem;
         /*border: 1px solid red;*/
     }
 
-
     .Cars {
         /*width: 230px;*/
-        height: 111px;
+        height: 9rem;
         /*border: 2px solid blueviolet;*/
-        width: 5.5rem;
+        width: 9.5rem;
     } 
     
-
-
-    .radio {
-        color: white;
-    }
-
-
     .lineBreak {
-        color: #99803e;
         size: 10px;
     }
-
 
     .mainCar {
         /*width: 100%;*/
@@ -995,11 +908,8 @@ h3 {
         background-size: contain;    
     }
 
-
-
     h4{
-        font-family: 'lato',sans-serif;
-        font-size: 8px;
+        font-size: 11px;
         text-align: center;
         /*border: 1px solid yellow;*/
         margin-bottom: 15%;
@@ -1012,11 +922,258 @@ h3 {
         flex-direction: row;
         justify-content: center;
         height: 8rem;
+        margin-bottom: 1rem;
     }
 
- p.titleHeading {
+    p.titleHeading {
         font-family: 'lora',serif;
-        font-size: 9px;
+        font-size: 14px;
+        margin-left: 0rem;
+        /*border: yellow solid 1px;*/
+    }
+
+    .topRow {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        /*border: 5px solid blue;*/
+        height: 10.5rem;
+        width: 29rem;
+        margin-top: 1rem;
+        margin-bottom: -0.5rem;
+    }
+
+    .bottomRow {
+        flex-direction: row;
+        justify-content: space-between;
+        /*border: 5px solid red;*/
+        height: 31.5rem;
+    }
+
+    .wholeParagraph{
+        /*border: 2px solid greenyellow;*/
+        margin-top: 1px;
+        height: 8rem;
+        width: 11.5rem;
+        padding-left: 2px;
+        padding-right: 2px;
+    }
+
+    .wholePageborder{
+        /*border: 2px solid greenyellow;*/
+        padding-left: 0rem;
+        padding-right: 0rem;
+        padding-bottom: 1rem;
+        width: 29rem;
+    }
+
+    .yellowishBackgroundBox button {
+        width: 5rem;
+        margin-left: 1rem;
+        margin-top: 2.6rem;
+    }
+}
+
+
+@media screen and (min-width: 1024px) {
+    header {
+        display: flex;
+        flex-direction: column;
+        height: 3rem;
+        width: 28rem;
+    }
+
+    img.logo {
+        width: 2rem;
+        margin-left: 19%;
+        margin-top: 1.5%;
+        margin-bottom: -3%;
+        /*border: 3px solid white;*/
+    }
+
+    #logoTitle {
+        margin-left: 28%;
+        margin-bottom: 0%;
+        margin-top: -4%;
+        /*border: 3px solid white;*/
+        width: 32rem;
+        display: flex;
+        flex-direction: row;
+        font-size: 20px;
+    }
+
+    .navbar {
+        height: 1rem;
+        padding-left: 0rem;
+        padding-top: 7px;
+        padding-bottom: 1px;
+        width: 28rem;
+    }
+
+    .navContainer {
+        padding-left: 9rem;
+        margin-top: -7px;
+    }
+
+    .navContainer > a {
+        text-decoration: none;
+        /*color: white;*/
+        font-family: 'lato',sans-serif;
+        padding-left: 3px;
+        padding-right: 3px;
+        font-size: 8px;
+        /*border: 1px solid black;*/
+        margin-left: 3px;
+        }
+
+    .backgroundMainPicture {
+        height: 13rem;
+        padding-top: 4rem;
+        margin-top: -4rem;
+        clip-path: polygon(0 0%, 100% 0%, 100% 83%,0 95%);
+        width: 28rem;
+    }
+
+    .frontTextofBigCar {
+        /*border: 3px solid blue;*/
+        height: 12rem;
+        padding-left: 2rem;
+        padding-top: 2rem;
+        font-family:'lora',serif;
+        font-size: 10px;
+        background: url("../img/bigCar.jpg") no-repeat;
+        background-size: contain;
+        /*clip-path: polygon(0 0, 100% 0, 100% 85%,0 100%);*/
+    }
+
+    .mainTitle {
+        /*border: 2px solid red;*/
+        width: 45%;
+        height: 29%;
+        font-size: 18px;
+        margin-bottom: -8px;
+        padding-top: 17px;
+        /* padding-left: 0px; */
+    }
+
+    .mainButton {
+        width: 59px;
+        height: 26px;
+        font-family: 'lato',sans-serif;
+        font-size: 5px;
+    }
+
+    .topPageBackground {
+        margin-top: -10rem;
+        padding-top: 9rem;
+        height: 29rem;
+        width: 28rem;
+    }
+    
+    h3 {
+        font-size: 4px;
+    }
+    .bigTitleCenter {
+        padding-left: 38%;
+        font-family: 'lora',serif;
+        font-size: 17px;
+        padding-top: 3%;
+        margin-top: 0rem;
+    }
+
+    .Paragraph {
+        justify-content: center;
+        text-align: center;
+        font-size: 6px;
+        padding-left: -2%;
+        padding-right: -2%;
+        /*padding-bottom: 2%;*/
+        margin-top: 3%;
+        line-height: 1.2rem;
+        height: 7rem;
+    }
+
+    .blueBackGroundBox {
+        /*border: 3px solid yellow;*/
+        width: 17rem;
+        padding-left: 0px;
+        padding-right: 0px;
+        height: 7rem;
+        padding-bottom: 15px;
+        /*padding-top: 1rem;*/
+        /*margin-right: 3rem;*/
+    }
+
+    .yellowishBackgroundBox {
+        width: 17rem;
+        padding-left: 0px;
+        padding-right: 0px;
+        height: 8rem;
+        /*padding-bottom: 3rem;*/
+        /*padding-top: 1rem;*/
+        /*margin-left: 0rem;*/
+    }
+
+    .blueBackGroundBox button {
+        width: 4rem;
+        margin-left: 1.1rem;
+        margin-top: 1.9rem;
+    }
+
+    .blueBackGroundBox p {
+        line-height: 12px;
+        font-size: 8px;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        height: 1rem;
+    }
+
+    .yellowishBackgroundBox p {
+        line-height: 12px;
+        font-size: 8px;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        height: 1rem;
+        /*border: 1px solid red;*/
+    }
+
+    .Cars {
+        /*width: 230px;*/
+        height: 127px;
+        /*border: 2px solid blueviolet;*/
+        width: 8.5rem;
+    } 
+    
+    .lineBreak {
+        size: 10px;
+    }
+
+    .mainCar {
+        /*width: 100%;*/
+        /*height: 100%;*/
+        background-image: "./Public/img/bigCar.jpg";
+        background-size: contain;    
+    }
+
+    h4{
+        font-size: 8px;
+        text-align: center;
+        /*border: 1px solid yellow;*/
+        margin-bottom: 15%;
+        margin-top: 3%;
+    }
+
+    section {
+        /*border: 1px solid white;*/
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        height: 6rem;
+    }
+
+    p.titleHeading {
+        font-family: 'lora',serif;
+        font-size: 11px;
         margin-left: 0rem;
         /*border: yellow solid 1px;*/
     }
@@ -1028,18 +1185,15 @@ h3 {
         /*border: 5px solid blue;*/
         height: 7.5rem;
         margin-top: 1rem;
-        margin-bottom: 0.5rem;
+        margin-bottom: 1.0rem;
     }
 
     .bottomRow {
-        display: flex;
         flex-direction: row;
         justify-content: space-between;
         /*border: 5px solid red;*/
-        height: 31.5rem;
+        height: 8.5rem;
     }
-
-
 
     .wholeParagraph{
         /*border: 2px solid greenyellow;*/
@@ -1058,10 +1212,8 @@ h3 {
     }
 
     .yellowishBackgroundBox button {
-        width: 3rem;
-        margin-left: 5.5rem;
-                margin-top: 1.6rem;
-
+        width: 4rem;
+        margin-left: 1.1rem;
+        margin-top: 31px;
     }
-
 }
