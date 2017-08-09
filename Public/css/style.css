@@ -1,17 +1,45 @@
+
+    .wrapper {
+        width: 100%;
+        height: 100%;
+    }
+
     header {
             background-color: black;
             height: 7rem;
+            width: 100%;
+    }
+    
+    img.logo {
+        width: 4rem;
+        margin-left: 24%;
+        margin-top: 2.5%;
+        margin-bottom: -3%;
     }
 
     #logoTitle {
         color: white;
         font-family: 'lora',serif;
+        margin-left: 33%;
+        margin-bottom: 0%;
+        margin-top: -3%;
+        width: 32rem;
+        display: flex;
+        flex-direction: row;
+        font-size: 37px;
     }   
 
     .navContainer > a {
         font-family: 'lato',sans-serif;
         text-decoration: none;
-    }
+        text-decoration: none;
+        font-family: 'lato',sans-serif;
+        padding-left: 3px;
+        padding-right: 3px;
+        font-size: 13px;
+        margin-left: 13px;
+        }
+
 
     .darked {
         background-color: darkred;
@@ -21,21 +49,33 @@
         color: white;
     }
 
-    .lineBreak {
-        color: #99803e;
+    .yellowish {
+        background-color: #99803e;
     }
 
+    .bottomSection-button {
+    width: 12rem;
+    margin-top: 7rem;
+    height: 3rem;
+    }
 
-    .yellowishBackground {
-        background-color: #99803e;
+    .lineBreak {
+        size: 10px;
+        color: #99803e;
+    }
+       
+    .BackGroundBox {
         width: 39rem;
     }
 
-    .bottomRow {
+    .Row {
         display: flex;
+        width: 100%;
+        height: 31%;
+        margin-bottom: 1rem;
     }
 
-    .blueBackGroundBox {
+    .blue {
         background-color:#2F6080;
     }
 
@@ -53,104 +93,75 @@
         font-family: 'lato',sans-serif;
     }
 
-    .wrapper {
+    .bottomSection {
+        height: 100%;
         width: 100%;
+        margin-top: 2rem;
     }
 
+
+
+    .backgroundMainPictureBody {
+        /*background-image: url("../Public/img/bigCar.jpg");*/
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100%;
+        margin-top: -70px;
+        clip-path: polygon(0% 3%, 100% 3%, 100% 100%,0% 100%);
+    }
 
     .frontTextofBigCar {
         border: 3px solid blue;
         width: 100%;
         height: 100%;
-        /*margin-top: -1rem;*/
-        height: 24rem;
-        padding-left: 3rem;
-        background: url("/Public/img/bigCar.jpg")no-repeat;
-        /* background-image: url("./Public/img/bigCar.jpg"); */
-        background: url("../img/bigCar.jpg") no-repeat;
-        at; */
-        clip-path: polygon(0% 10%, 100% 10%, 100% 100%,0% 100%);
-        background-size: contain;
-        /*padding-left: 2rem;*/
-        padding-top: 7rem;
-        /* font-size: 11px; */
-        font-size: 30px;
-    }
-
-    header {
-        /* display: flex; */
-        /* flex-direction: column; */
-        height: 7rem;
-        width: 100%;
-    }
-
-    img.logo {
-        width: 4rem;
-        margin-left: 24%;
-        margin-top: 2.5%;
-        margin-bottom: -3%;
-        /*border: 3px solid white;*/
-    }
-
-    #logoTitle {
-        margin-left: 33%;
-        margin-bottom: 0%;
-        margin-top: -3%;
-        /*border: 3px solid white;*/
-        width: 32rem;
-        display: flex;
-        flex-direction: row;
-        font-size: 37px;
+        margin-top: -22rem;
+        font-size: 48px;
+        padding-left: 4rem;
+        padding-top: 0rem;
     }
 
     .navbar {
-        height: 2rem;
+        height: 3rem;
         padding-left: 0rem;
         padding-top: 7px;
         padding-bottom: 1px;
         width: 100%;
-        margin-bottom: 0rem;
+        margin-bottom: 3rem;
+        background-color: #99803e;
     }
 
     .navContainer {
-        padding-left: 24rem;
-        margin-top: 1px;
+        padding-left: 25rem;
+        margin-top: 10px;
     }
-
-    .navContainer > a {
-        text-decoration: none;
-        /*color: white;*/
-        font-family: 'lato',sans-serif;
-        padding-left: 3px;
-        padding-right: 3px;
-        font-size: 13px;
-        margin-left: 13px;
-        /*border: 1px solid black;*/
-        }
 
     .mainTitle {
         border: 2px solid red;
-        font-size: 45px;
-        font-family: 'lato',sans-serif;
-        /*width: 45%;*/
-        /*height: 29%;*/
-        /*margin-bottom: -8px;*/
-        /*padding-top: 17px;*/
-        /* padding-left: 0px; */
+        font-size: 54px;
+        margin-top: -9rem;
+        padding-left: 63px;
     }
 
+    .lora {
+            font-family: 'lora',serif;
+    }
+
+    .lato {
+            font-family: 'lato',sans-serif;
+    }
+    
     .mainButton {
-        width: 9rem;
-        height: 3rem;
+        width: 12rem;
+        height: 4rem;
+        margin-left: 4rem;
         font-family: 'lato',sans-serif;
-        /* font-size: 7px; */
     }
 
     .topPageBackground {
-        margin-top: -1rem;
-        padding-top: 9rem;
-        height: 46rem;
-        /* width: 28rem; */
+        margin-top: 8rem;
+        padding-top: 14rem;
+        height: 61rem;
     }
     
     h3 {
@@ -165,136 +176,105 @@
     }
 
     .Paragraph {
-        justify-content: center;
         text-align: center;
-        font-size: 17px;
+        font-size: 15px;
         padding-left: 1rem;
-        padding-left: 0%;
+        padding-left: 1%;
+        padding-right: 1%;
         padding-right: -2%;
-        /*padding-bottom: 2%;*/
         margin-top: 3%;
-        line-height: 1.2rem;
+        line-height: 2.2rem;
         height: 7rem;
     }
 
-    .blueBackGroundBox {
-        /*border: 3px solid yellow;*/
+    .BackGroundBox {
         width: 36rem;
-        padding-left: 0px;
-        padding-right: 0px;
-        height: 11rem;
-        padding-bottom: 15px;
-        /*padding-top: 1rem;*/
-        /*margin-right: 3rem;*/
+        padding-left: 7px;
+        padding-right: 3px;
+        height: -1rem;
     }
 
-    .yellowishBackgroundBox {
-        width: 36rem;
-        padding-left: 0px;
-        padding-right: 0px;
-        height: 12rem;
-        /*padding-bottom: 3rem;*/
-        /*padding-top: 1rem;*/
-        /*margin-left: 0rem;*/
-    }
-
-    .blueBackGroundBox button {
+    .BackGroundBox button {
         width: 10rem;
         margin-left: 1.1rem;
-        margin-top: 0.9rem;
+        margin-top: 5.9rem;
     }
 
-    .blueBackGroundBox p {
-        line-height: 12px;
+    .paragraphInRow {
+        line-height: 28px;
         font-size: 15px;
         padding-left: 1rem;
         padding-right: 1rem;
         height: 2rem;
     }
 
-    .yellowishBackgroundBox p {
-        line-height: 20px;
+    .BackGroundBox p {
+        line-height: 30px;
         font-size: 17px;
         padding-left: 1rem;
         padding-right: 1rem;
         height: 1rem;
-        /*border: 1px solid red;*/
     }
 
     .Cars {
-        /*width: 230px;*/
-        height: 12rem;
-        /*border: 2px solid blueviolet;*/
+        height: 279px;
         width: 18.5rem;
     } 
-    
-    .lineBreak {
-        size: 10px;
-    }
-
-    
 
     h4{
         font-size: 20px;
         text-align: center;
-        /*border: 1px solid yellow;*/
         margin-bottom: 15%;
         margin-top: 3%;
     }
 
     section {
-        /*border: 1px solid white;*/
         display: flex;
         flex-direction: row;
         justify-content: center;
-        height: 11rem;
+        height: 14rem;
     }
 
     p.titleHeading {
         font-family: 'lora',serif;
         font-size: 24px;
         margin-left: 0rem;
-        /*border: yellow solid 1px;*/
     }
 
-    .topRow {
+    .bottomSection.Row {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        /*border: 5px solid blue;*/
-        height: 11.5rem;
-        margin-top: 1rem;
-        margin-bottom: 1.0rem;
-    }
-
-    .bottomRow {
-        flex-direction: row;
-        justify-content: space-between;
-        /*border: 5px solid red;*/
-        height: 11.5rem;
+        height: 15.5rem;
     }
 
     .wholeParagraph{
-        /*border: 2px solid greenyellow;*/
         margin-top: 1px;
-        height: 10rem;
+        height: 14rem;
         width: 18.5rem;
         padding-left: 5px;
         padding-right: 5px;
     }
 
     .wholePageborder{
-        /*border: 2px solid greenyellow;*/
         padding-left: 3rem;
         padding-right: 3rem;
         padding-bottom: 1rem;
         margin-top: -5rem;
-        height: 39rem;
+        height: 56rem;
+        width: 57rem;
     }
 
-    .yellowishBackgroundBox button {
-        width: 10rem;
-        margin-left: 1.1rem;
-        margin-top: 31px;
-    }
 
+.Cars.above {
+    margin-left: 2rem;
+}
+    
+
+.Cars.below {
+    margin-right: 2rem;
+}
+    
+ .backGroundimg {
+      clip-path: polygon(0% 0%, 100% 0%, 100% 85%,0% 100%);
+    }
