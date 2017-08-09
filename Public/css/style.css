@@ -59,7 +59,7 @@
 
     .frontTextofBigCar {
         width: 100%;
-        height: 100%;
+        /* height: 100%; */
         padding-left: 0rem;
         padding-top: 76rem;
 }
@@ -109,6 +109,9 @@
     h3 {
         font-size: 13px;
     }
+
+    
+    
     .bigTitleCenter {
         padding-left: 38%;
         font-family: 'lora',serif;
@@ -213,7 +216,7 @@
         padding-bottom: 1rem;
         margin-top: -5rem;
         height: 100%;
-        margin-right: -4rem;
+        margin-right: 0rem;
     }
 
     .darked {
