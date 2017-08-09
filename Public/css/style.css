@@ -57,6 +57,16 @@
         width: 100%;
 }
 
+
+ .backgroundMainPictureBody {
+            background-image: url("../img/backGround.jpg");
+            width: 100%;
+            height: 100%;
+            background-repeat: no-repeat;
+            background-size: contain;
+            clip-path: polygon(0% 0%, -100% 61%, 100% 42%, 100% 0%);
+        }
+
     .frontTextofBigCar {
         width: 100%;
         height: 100%;
@@ -168,7 +178,6 @@
         margin-left: 2rem;
     }
         
-
     .Cars.below {
         margin-right: 2rem;
     }
@@ -246,10 +255,575 @@
     }
 
     .Row {
-        display: flex;
         width: 100%;
         height: 31%;
         margin-bottom: 1rem;
+        display: flex;
+    }
+
+    .blue {
+        background-color:#2F6080;
+    }
+
+    h4{
+    font-family: 'lato',sans-serif;
+    }
+
+
+@media screen and (min-width: 400px) {
+    
+
+
+.wrapper {
+        width: 100%;
+        height: 100%;
+}
+
+    header {
+        display: flex;
+        flex-direction: column;
+        height: 7rem;
+        width: 100%;
+        background-color: black;
+}
+    
+    img.logo {
+        display: flex;
+        justify-content: center;
+        margin-left: 1rem;
+        margin-top: 2rem;
+        width: 3rem;
+}
+
+    #logoTitle {
+        margin-left: 4.5rem;
+        margin-top: -2.5rem;
+        color: white;
+        font-family: 'lora',serif;
+        width: 32rem;
+        display: flex;
+        flex-direction: row;
+        font-size: 26px;
+}   
+
+    .navContainer > a {
+        font-family: 'lato',sans-serif;
+        text-decoration: none;
+        text-decoration: none;
+        font-family: 'lato',sans-serif;
+        padding-left: 3px;
+        padding-right: 3px;
+        font-size: 16px;
+        margin-left: 13px;
+}
+
+    .navbar {
+        height: 4rem;
+        padding-left: 3rem;
+        padding-top: 7px;
+        padding-bottom: 1px;
+        margin-bottom: 0rem;
+        background-color: #99803e;
+}
+
+
+ .backgroundMainPictureBody {
+            background-image: url("../img/backGround.jpg");
+            width: 100%;
+            height: 100%;
+            background-repeat: no-repeat;
+            background-size: contain;
+            clip-path: polygon(0% 0%, -100% 61%, 100% 42%, 100% 0%);
+        }
+
+    .navContainer {
+        padding-left: 0rem;
+        margin-top: 9px;
+        width: 100%;
+}
+
+    .frontTextofBigCar {
+        width: 100%;
+        height: 100%;
+        padding-left: 0rem;
+        padding-top: 61rem;
+}
+
+    .topPageBackground {
+        background-color: #333333;
+        border: 3px solid black;
+        margin-top: -62rem;
+        padding-top: 19rem;
+        height: 100%;
+        width: 100%;
+}
+    
+    .Paragraph {
+        color: whitesmoke;
+        font-family: 'lato',sans-serif;
+}
+
+    .bottomSection {
+        height: 100%;
+        width: 100%;
+        margin-top: 2rem;
+}
+
+    .mainTitle {
+        border: 1px solid yellow;
+        font-size: 10px;
+        margin-top: -14rem;
+        width: 7rem;
+        padding-left: 5px;
+}
+
+    .lora {
+        font-family: 'lora',serif;
+}
+
+    .lato {
+        font-family: 'lato',sans-serif;
+}
+    
+    .mainButton {
+        width: 11rem;
+        height: 4rem;
+        margin-left: 5rem;
+        font-family: 'lato',sans-serif;
+}
+
+    h3 {
+        font-size: 13px;
+    }
+    .bigTitleCenter {
+        padding-left: 21%;
+        font-family: 'lora',serif;
+        font-size: 32px;
+        padding-top: 0%;
+        margin-bottom: 1rem;
+    }
+
+    .Paragraph {
+        text-align: center;
+        font-size: 15px;
+        padding-left: 1rem;
+        padding-left: 1%;
+        padding-right: 1%;
+        padding-right: -2%;
+        margin-top: 3%;
+        line-height: 2.2rem;
+        height: 7rem;
+    }
+
+    .BackGroundBox {
+        width: 36rem;
+        padding-left: 7px;
+        padding-right: 3px;
+        height: -5rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .BackGroundBox button {
+        width: 10rem;
+        margin-left: 6.1rem;
+        margin-top: 7.9rem;
+    }
+
+    .paragraphInRow {
+        line-height: 28px;
+        font-size: 15px;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        height: 2rem;
+    }
+
+    .BackGroundBox p {
+        line-height: 30px;
+        font-size: 18px;
+        line-height: 2rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        height: 1rem;
+    }
+
+    .Cars {
+        height: 252px;
+        width: 24.4rem;
+    } 
+
+    .Cars.above {
+        margin-left: 0rem;
+    }
+        
+
+    .Cars.below {
+        margin-right: 2rem;
+    }
+  
+    h4{
+        font-size: 20px;
+        text-align: center;
+        margin-bottom: 9%;
+        margin-top: 1%;
+    }
+
+    section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 44rem;
+        width: 100%;
+    }
+
+    p.titleHeading {
+        font-family: 'lora',serif;
+        font-size: 24px;
+        margin-left: 5rem;
+    }
+
+    .bottomSection.Row {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        height: 15.5rem;
+    }
+
+    .wholeParagraph{
+        margin-top: 0px;
+        height: 14rem;
+        width: 18.5rem;
+        padding-left: 5px;
+        padding-right: 5px;
+        margin-left: 2rem;
+    }
+
+    .wholePageborder{
+        padding-left: 0rem;
+        padding-right: 0rem;
+        padding-bottom: 1rem;
+        margin-top: -5rem;
+        height: 100%;
+        /* width: 100%; */
+        margin-right: 0rem;
+    }
+
+    .darked {
+        background-color: darkred;
+    }
+
+    .white {
+        color: white;
+    }
+
+    .yellowish {
+        background-color: #99803e;
+    }
+
+    .bottomSection-button {
+        width: 12rem;
+        margin-top: 7rem;
+        height: 3rem;
+    }
+
+    .lineBreak {
+        size: 10px;
+        color: #99803e;
+    }
+       
+    .BackGroundBox {
+        width: 100%;
+    }
+
+    .Row {
+        width: 100%;
+        height: 100%;
+        margin-bottom: 1rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .blue {
+        background-color:#2F6080;
+    }
+
+    h4{
+    font-family: 'lato',sans-serif;
+    }
+}
+
+
+@media screen and (min-width: 768px) {
+
+
+
+
+
+.wrapper {
+        width: 100%;
+        height: 100%;
+}
+
+    header {
+        display: flex;
+        flex-direction: column;
+        height: 7rem;
+        width: 100%;
+        background-color: black;
+}
+    
+    img.logo {
+        display: flex;
+        justify-content: center;
+        margin-left: 1rem;
+        margin-top: 2rem;
+        width: 3rem;
+}
+
+    #logoTitle {
+        margin-left: 4.5rem;
+        margin-top: -2.5rem;
+        color: white;
+        font-family: 'lora',serif;
+        width: 32rem;
+        display: flex;
+        flex-direction: row;
+        font-size: 26px;
+}   
+
+    .navContainer > a {
+        font-family: 'lato',sans-serif;
+        text-decoration: none;
+        text-decoration: none;
+        font-family: 'lato',sans-serif;
+        padding-left: 3px;
+        padding-right: 3px;
+        font-size: 16px;
+        margin-left: 13px;
+}
+
+    .navbar {
+        height: 4rem;
+        padding-left: 3rem;
+        padding-top: 7px;
+        padding-bottom: 1px;
+        margin-bottom: 0rem;
+        background-color: #99803e;
+}
+
+
+ .backgroundMainPictureBody {
+            background-image: url("../img/backGround.jpg");
+            width: 100%;
+            height: 100%;
+            background-repeat: no-repeat;
+            background-size: contain;
+            clip-path: polygon(0% 0%, -100% 61%, 100% 42%, 100% 0%);
+        }
+
+    .navContainer {
+        padding-left: 0rem;
+        margin-top: 9px;
+        width: 100%;
+}
+
+    .frontTextofBigCar {
+        width: 100%;
+        height: 100%;
+        padding-left: 0rem;
+        padding-top: 61rem;
+}
+
+    .topPageBackground {
+        background-color: #333333;
+        border: 3px solid black;
+        margin-top: -62rem;
+        padding-top: 19rem;
+        height: 100%;
+        width: 100%;
+}
+    
+    .Paragraph {
+        color: whitesmoke;
+        font-family: 'lato',sans-serif;
+}
+
+    .bottomSection {
+        height: 100%;
+        width: 100%;
+        margin-top: 2rem;
+}
+
+    .mainTitle {
+        border: 1px solid yellow;
+        font-size: 10px;
+        margin-top: -14rem;
+        width: 7rem;
+        padding-left: 5px;
+}
+
+    .lora {
+        font-family: 'lora',serif;
+}
+
+    .lato {
+        font-family: 'lato',sans-serif;
+}
+    
+    .mainButton {
+        width: 11rem;
+        height: 4rem;
+        margin-left: 5rem;
+        font-family: 'lato',sans-serif;
+}
+
+    h3 {
+        font-size: 13px;
+    }
+    .bigTitleCenter {
+        padding-left: 21%;
+        font-family: 'lora',serif;
+        font-size: 32px;
+        padding-top: 0%;
+        margin-bottom: 1rem;
+    }
+
+    .Paragraph {
+        text-align: center;
+        font-size: 15px;
+        padding-left: 1rem;
+        padding-left: 1%;
+        padding-right: 1%;
+        padding-right: -2%;
+        margin-top: 3%;
+        line-height: 2.2rem;
+        height: 7rem;
+    }
+
+    .BackGroundBox {
+        width: 36rem;
+        padding-left: 7px;
+        padding-right: 3px;
+        height: -5rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .BackGroundBox button {
+        width: 10rem;
+        margin-left: 6.1rem;
+        margin-top: 7.9rem;
+    }
+
+    .paragraphInRow {
+        line-height: 28px;
+        font-size: 15px;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        height: 2rem;
+    }
+
+    .BackGroundBox p {
+        line-height: 30px;
+        font-size: 18px;
+        line-height: 2rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        height: 1rem;
+    }
+
+    .Cars {
+        height: 252px;
+        width: 24.4rem;
+    } 
+
+    .Cars.above {
+        margin-left: 0rem;
+    }
+        
+
+    .Cars.below {
+        margin-right: 2rem;
+    }
+  
+    h4{
+        font-size: 20px;
+        text-align: center;
+        margin-bottom: 9%;
+        margin-top: 1%;
+    }
+
+    section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 44rem;
+        width: 100%;
+    }
+
+    p.titleHeading {
+        font-family: 'lora',serif;
+        font-size: 24px;
+        margin-left: 5rem;
+    }
+
+    .bottomSection.Row {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        height: 15.5rem;
+    }
+
+    .wholeParagraph{
+        margin-top: 0px;
+        height: 14rem;
+        width: 18.5rem;
+        padding-left: 5px;
+        padding-right: 5px;
+        margin-left: 2rem;
+    }
+
+    .wholePageborder{
+        padding-left: 0rem;
+        padding-right: 0rem;
+        padding-bottom: 1rem;
+        margin-top: -5rem;
+        height: 100%;
+        /* width: 100%; */
+        margin-right: 0rem;
+    }
+
+    .darked {
+        background-color: darkred;
+    }
+
+    .white {
+        color: white;
+    }
+
+    .yellowish {
+        background-color: #99803e;
+    }
+
+    .bottomSection-button {
+        width: 12rem;
+        margin-top: 7rem;
+        height: 3rem;
+    }
+
+    .lineBreak {
+        size: 10px;
+        color: #99803e;
+    }
+       
+    .BackGroundBox {
+        width: 100%;
+    }
+
+    .Row {
+        width: 100%;
+        height: 100%;
+        margin-bottom: 1rem;
+        display: flex;
+        flex-direction: column;
     }
 
     .blue {
@@ -262,3 +836,4 @@
 
 
 
+}
