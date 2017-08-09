@@ -11,16 +11,28 @@
     <link rel="stylesheet" href="css/bootstrap-theme.min.css">
     <link href="https://fonts.googleapis.com/css?family=Lato|Lora" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        .backgroundMainPictureBody {
+            background-image: url("./Public/img/backGround.jpg");
+            width: 100%;
+            height: 100%;
+            background-repeat: no-repeat;
+            background-size: contain;
+            clip-path: polygon(0% 0%, -101% 49%, 100% 35%, 100% 0%);
+        }
+    </style>
+
 </head>
 
 <body>
     <div class="wrapper">
-        <header>
-            <div>
+        <div>
+            <header class="container">
                 <img class="logo" src="./Public/img/favicon.png" alt="logo img">
                 <h1 id="logoTitle">GWM Executive Minibus</h1>
-            </div>
-        </header>
+            </header>
+        </div>
+
         <div class="navbar">
             <nav class="navContainer">
                 <a href="#" class="white">Home</a>
@@ -30,91 +42,90 @@
             </nav>
         </div>
         <div class="backgroundMainPictureBody">
-            <img src="Public/img/bigCar.jpg" class="backGroundimg">
+            <div class="frontTextofBigCar white">
+                <h1 class="mainTitle lora">Luxury </br> Vehicles Edinburgh</h1>
+                <button class="mainButton white darked">
+                        <h3>ENQUIRE NOW</h3>
+                </button>
+            </div>
         </div>
-        <div class="frontTextofBigCar white">
-            <h1 class="mainTitle lora">Luxury </br> Vehicles Edinburgh</h1>
-            <button class="mainButton white darked">
-                    <h3>ENQUIRE NOW</h3>
-            </button>
-        </div>
-        <div class="topPageBackground white">
-            <div class="wholePageborder">
-                <div>
-                    <h2 class="bigTitleCenter">
-                        Travel in Style
-                    </h2>
+    </div>
+    <div class="topPageBackground white">
+        <div class="wholePageborder">
+            <div>
+                <h2 class="bigTitleCenter">
+                    Travel in Style
+                </h2>
+            </div>
+            <hr size="3" color="#99803e">
+            <section>
+                <div class="wholeParagraph">
+                    <subtitle>
+                        <h4>16 SEATER MINIBUS</h4>
+                    </subtitle>
+                    <p class="Paragraph">vel augue laoreet rutrum faucibus dolor auctor. Nulla vitae libero, a pharetra augue.Maecenas sed diam
+                        egetrisus varius blandit sit amet non
+                    </p>
                 </div>
-                <hr size="3" color="#99803e">
-
-                <section>
-                    <div class="wholeParagraph">
-                        <subtitle>
-                            <h4>16 SEATER MINIBUS</h4>
-                        </subtitle>
-                        <p class="Paragraph">vel augue laoreet rutrum faucibus dolor auctor. Nulla vitae libero, a pharetra augue.Maecenas sed
-                            diam egetrisus varius blandit sit amet non
+                <div class="wholeParagraph">
+                    <subtitle>
+                        <h4>LUXURY INTERIORS</h4>
+                    </subtitle>
+                    <p class="Paragraph">
+                        vel augue laoreet rutrum faucibus dolor auctor. Nulla vitae elit libero, a pharetra augue. Maecenas sed diam eget risus varius
+                        blandit sit amet non
+                    </p>
+                </div>
+                <div class="wholeParagraph">
+                    <subtitle>
+                        <h4>TOURS</h4>
+                    </subtitle>
+                    <p class="Paragraph">
+                        vel augue laoreet rutrum faucibus dolor auctor. Nulla vitae elit libero, a pharetra augue. Maecenas sed diam eget risus varius
+                        blandit sit amet non
+                    </p>
+                </div>
+            </section>
+            <hr size="3" color="#99803e">
+            <div class="bottomSection">
+                <div class="Row">
+                    <div class="BackGroundBox blue ">
+                        <p class="titleHeading">Title Heading</p>
+                        <p class="paragraphInRow">
+                            Vivamus sagitts lacus vel augue laoreet rutrum faucibus dolor auctor. Nulla vitae elit libero, a pharetra aguge. Maecenas
+                            sed diam eget risus varius blandit sit amet non magna. Morbi leo risus, porta ac consectetur.
+                            libero, a pharetra.
                         </p>
-                    </div>
-                    <div class="wholeParagraph">
-                        <subtitle>
-                            <h4>LUXURY INTERIORS</h4>
-                        </subtitle>
-                        <p class="Paragraph">
-                            vel augue laoreet rutrum faucibus dolor auctor. Nulla vitae elit libero, a pharetra augue. Maecenas sed diam eget risus varius
-                            blandit sit amet non
-                        </p>
-                    </div>
-                    <div class="wholeParagraph">
-                        <subtitle>
-                            <h4>TOURS</h4>
-                        </subtitle>
-                        <p class="Paragraph">
-                            vel augue laoreet rutrum faucibus dolor auctor. Nulla vitae elit libero, a pharetra augue. Maecenas sed diam eget risus varius
-                            blandit sit amet non
-                        </p>
-                    </div>
-                </section>
-                <hr size="3" color="#99803e">
-                <div class="bottomSection">
-                    <div class="Row">
-                        <div class="BackGroundBox blue ">
-                            <p class="titleHeading">Title Heading</p>
-                            <p class="paragraphInRow">
-                                Vivamus sagitts lacus vel augue laoreet rutrum faucibus dolor auctor. Nulla vitae elit libero, a pharetra aguge. Maecenas
-                                sed diam eget risus varius blandit sit amet non magna. Morbi leo risus, porta ac consectetur.
-                                libero, a pharetra.
-                            </p>
-                            <button class="white darked bottomSection-button">
+                        <button class="white darked bottomSection-button">
 	            	        <h3>LEARN MORE</h3>
 	                    </button>
-                        </div>
+                    </div>
+                    <div>
+                        <img class="Cars above" src="./Public/img/openroof.jpg " alt="Open cars photo">
+                    </div>
+                </div>
+                <div class="Row">
+                    <div>
                         <div>
-                            <img class="Cars above" src="./Public/img/openroof.jpg " alt="Open cars photo">
+                            <img class="Cars below" src="./Public/img/Tesla.jpg " alt="car photo">
                         </div>
                     </div>
-                    <div class="Row">
-                        <div>
-                            <div>
-                                <img class="Cars below" src="./Public/img/Tesla.jpg " alt="car photo">
-                            </div>
-                        </div>
-                        <div class="BackGroundBox yellowish">
-                            <p class="titleHeading">Title Heading</p>
-                            <p class="paragraphInRow">
-                                Vivamus sagitts lacus vel augue laoreet rutrum faucibus dolor auctor. Nulla vitae elit libero, a pharetra augue. Maecenas
-                                sed diam eget risus varius blandit sit amet non magna. Morbi leo risus, porta ac consectetur.
-                                libero, a pharetra.
-                            </p>
-                            <button class="white darked bottomSection-button">
+                    <div class="BackGroundBox yellowish">
+                        <p class="titleHeading">Title Heading</p>
+                        <p class="paragraphInRow">
+                            Vivamus sagitts lacus vel augue laoreet rutrum faucibus dolor auctor. Nulla vitae elit libero, a pharetra augue. Maecenas
+                            sed diam eget risus varius blandit sit amet non magna. Morbi leo risus, porta ac consectetur.
+                            libero, a pharetra.
+                        </p>
+                        <button class="white darked bottomSection-button">
 				            <h3>LEARN MORE</h3>
 			            </button>
-                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
 
 </body>
 
