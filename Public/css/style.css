@@ -19,10 +19,7 @@
         margin-top: 3rem;
         width: 4rem;
 }
-/*
-#logoTitle:first-child{
-    color: #99803e;   
-}*/
+
     #logoTitle {
         margin-left: 25rem;
         margin-top: -3.5rem;
@@ -70,7 +67,7 @@
     .topPageBackground {
         background-color: #333333;
         border: 3px solid black;
-        margin-top: -52rem;
+        margin-top: -53rem;
         padding-top: 19rem;
         height: 100%;
         width: 100%;
