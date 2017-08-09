@@ -15,13 +15,13 @@
     img.logo {
         display: flex;
         justify-content: center;
-        margin-left: 17rem;
-        margin-top: 2rem;
+        margin-left: 20rem;
+        margin-top: 3rem;
         width: 4rem;
 }
 
     #logoTitle {
-        margin-left: 22rem;
+        margin-left: 25rem;
         margin-top: -3.5rem;
         color: white;
         font-family: 'lora',serif;
@@ -52,23 +52,23 @@
 }
 
     .navContainer {
-        padding-left: 20rem;
+        padding-left: 23rem;
         margin-top: 17px;
         width: 100%;
 }
 
     .frontTextofBigCar {
         width: 100%;
-        /* height: 100%; */
+        height: 100%;
         padding-left: 0rem;
-        padding-top: 76rem;
+        padding-top: 80rem;
 }
 
     .topPageBackground {
         background-color: #333333;
         border: 3px solid black;
         margin-top: -50rem;
-        padding-top: 10rem;
+        padding-top: 19rem;
         height: 100%;
         width: 100%;
 }
@@ -85,10 +85,10 @@
 }
 
     .mainTitle {
-        font-size: 32px;
+        font-size: 39px;
         margin-top: -59rem;
         width: 45rem;
-        padding-left: 63px;
+        padding-left: 77px;
 }
 
     .lora {
@@ -100,24 +100,21 @@
 }
     
     .mainButton {
-        width: 10rem;
-        height: 3rem;
-        margin-left: 4rem;
+        width: 11rem;
+        height: 4rem;
+        margin-left: 5rem;
         font-family: 'lato',sans-serif;
 }
 
     h3 {
         font-size: 13px;
     }
-
-    
-    
     .bigTitleCenter {
-        padding-left: 38%;
+        padding-left: 40%;
         font-family: 'lora',serif;
         font-size: 37px;
-        padding-top: 3%;
-        margin-top: 0rem;
+        padding-top: 0%;
+        margin-bottom: 3rem;
     }
 
     .Paragraph {
@@ -155,10 +152,11 @@
 
     .BackGroundBox p {
         line-height: 30px;
-        font-size: 17px;
+        font-size: 18px;
+        line-height: 2rem;
         padding-left: 1rem;
         padding-right: 1rem;
-        height: 1rem;
+        height: 2rem;
     }
 
     .Cars {
@@ -216,6 +214,7 @@
         padding-bottom: 1rem;
         margin-top: -5rem;
         height: 100%;
+        /* width: 100%; */
         margin-right: 0rem;
     }
 
@@ -243,7 +242,7 @@
     }
        
     .BackGroundBox {
-        width: 39rem;
+        width: 54rem;
     }
 
     .Row {
