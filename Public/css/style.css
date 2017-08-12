@@ -1,4 +1,5 @@
 
+
 #what{
     background: #333333;
     color:white;
@@ -201,3 +202,261 @@ h1.contactlist.first{
 }
 
 **/
+=======
+
+    .wrapper {
+            width: 100%;
+            height: 100%;
+    }
+
+    header {
+        background-color: black;
+        display: flex;
+        justify-content: center;
+    }
+    .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        justify-content: space-between;
+        height: 7rem;
+        align-items: center;
+        width: 42%;
+    }
+    
+    img.logo {
+        width: 5rem;
+        height: 5rem;
+    }
+
+    .logoTitle.lora {
+        color: white;
+        width: 27rem;
+        font-size: 37px;
+    }   
+
+    .navbar {
+        display: flex;
+        justify-content: center;
+        height: 3rem;
+        align-items: center;
+        background-color: #99803e;
+    }
+
+    .navContainer {
+        width: 26%;
+    }
+
+    .navContainer > a {
+        text-decoration: none;
+        padding-left: 3px;
+        padding-right: 3px;
+        font-size: 18px;
+        margin-left: 13px;
+    }
+
+    .backgroundMainPic {
+        width: 100%;
+        background-image: url("../img/backGround.jpg");
+        background-size: contain;
+        background-repeat: no-repeat;
+        clip-path: polygon;
+    }
+
+    .frontTextofBigCar {
+        display: flex;
+        flex-direction: column;
+        width: 34%;
+        line-height: 42px;
+        height: 100%;
+        padding-left: 4rem;
+        padding-top: 0rem;
+        border: 2px solid yellow;
+        color: black;
+        margin-top: -27rem;
+    }
+
+    .topPageBackground {
+        background-color: #333333;
+        border: 3px solid black;
+        margin-top: -2rem;
+        padding-top: 30rem;
+        height: 100%;
+        width: 100%;
+    }
+    
+    .wholePageborder{
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-bottom: 1rem;
+        margin-top: -19rem;
+        height: 100%;
+    }
+
+    .bigTitleCenter {
+        display: flex;
+        justify-content: center;
+        font-size: 37px;
+    }
+
+    .wholeParagraph{
+        display: flex;
+        flex-direction: column;
+        height: 14rem;
+        width: 23.5rem;
+        justify-content: center;
+    }
+
+    .Paragraph {
+        color: whitesmoke;
+    }
+
+    .bottomSection {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+        margin-top: 2rem;
+    }
+
+    .mainTitle {
+        font-size: 41px;
+        line-height: 4rem;
+        height: 100%;
+    }
+
+    .lora {
+        font-family: 'lora',serif;
+    }
+
+    .lato {
+        font-family: 'lato',sans-serif;
+    }
+    
+    .mainButton {
+        width: 10rem;
+        height: 4rem;
+    }
+
+    h3 {
+        font-size: 14px;
+    }
+    
+    .Paragraph {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: 15px;
+        padding-right: -2%;
+        line-height: 2.2rem;
+        height: 7rem;
+    }
+
+    .BackGroundBox {
+        width: 36rem;
+        height: -1rem;
+    }
+
+    .BackGroundBox button {
+        width: 10rem;
+        margin-left: 1.1rem;
+        margin-top: 4.9rem;
+    }
+
+    .paragraphInRow {
+        line-height: 28px;
+        font-size: 15px;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        height: 2rem;
+    }
+
+    .BackGroundBox p {
+        line-height: 30px;
+        font-size: 16px;
+        line-height: 2rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        height: 2rem;
+    }
+
+    .Cars {
+        height: 270px;
+        width: 23.5rem;
+    } 
+
+    .Cars.above {
+        margin-left: 2rem;
+    }
+        
+    .Cars.below {
+        margin-right: 2rem;
+    }
+  
+    h4{
+        font-size: 20px;
+        text-align: center;
+        height: 1px;
+    }
+
+    section {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        justify-content: space-around;
+        height: 14rem;
+    }
+
+    p.titleHeading {
+        font-size: 24px;
+        margin-left: 0rem;
+    }
+
+    .bottomSection.Row {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        height: 15.5rem;
+    }
+
+    .darked {
+        background-color: darkred;
+    }
+
+    .white {
+        color: white;
+    }
+
+    .yellowish {
+        background-color: #99803e;
+    }
+
+    .bottomSection-button {
+        width: 12rem;
+        margin-top: 7rem;
+        height: 3.5rem;
+    }
+
+    .lineBreak {
+        size: 10px;
+        color: #99803e;
+    }
+       
+    .BackGroundBox {
+        width: 50rem;
+        height: 17rem;
+        padding-left: 13px;
+    }
+
+    .Row {
+        width: 100%;
+        height: 31%;
+        margin-bottom: 1rem;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .blue {
+        background-color:#2F6080;
+    }
+    
