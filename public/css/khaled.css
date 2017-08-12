@@ -107,8 +107,8 @@ p{
 }
 
 #contactus{
-    -moz-transform:rotate(-3deg);
--webkit-transform:rotate(-3deg);
+-webkit-clip-path: polygon(0 23%, 100% 5%, 100% 85%, 0% 100%);
+clip-path: polygon(0 23%, 100% 5%, 100% 85%, 0% 100%);
 overflow: hidden;
 display: block;
   position:relative;
@@ -123,11 +123,7 @@ background-image: url('http://freebigpictures.com/wp-content/uploads/sunset-fore
         max-width: 'initial'
 }
 
-div.col.text-center.norotate{
-        -moz-transform:rotate(3deg);
--webkit-transform:rotate(3deg);
 
-}
 
 .contactlist{
      color:white;
