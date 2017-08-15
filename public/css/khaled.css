@@ -5,7 +5,7 @@
     font-family: 'lora',serif;
 }
 
-#whatPeople{
+.whatPeople{
     padding-top: 26px;
 }
 
@@ -201,3 +201,17 @@ h1.contactlist.first{
 }
 
 **/
+
+#imgSimon{
+    box-sizing: border-box;
+    margin: 20px;
+    height: 262px;
+    background: url('http://www.equineworld.co.uk/media/k2/items/cache/665e3353c5a0a1298b58f0408e39e998_L.jpg');
+}
+#titlesSimon{
+margin: 20px;
+    height: 262px;
+    box-sizing: border-box;
+
+}
+
