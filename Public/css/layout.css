@@ -69,7 +69,7 @@
 
 .card {
     width: 20rem;
-    height: 70rem;
+    height: 40rem;
     border: none;
 }
 
@@ -84,6 +84,10 @@ p {
     padding-top: 2rem;
 }
 
+.card-img-top {
+    width: 285px;
+    height: 200px;
+}
 .visit-us-on {
     margin-left: 2.4rem;
 }
@@ -246,10 +250,12 @@ h3 {
 .background-color-blue {
     background-color: #2F6080;
     padding-top: 18px;
+    margin-bottom: -16px;
 }
 
 .background-colour-grey {
     background-color: #2F4F4F;
+    padding-top: 21px;
 }
 
 .background-color-darkgrey{

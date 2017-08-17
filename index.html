@@ -19,7 +19,7 @@
     <div class="container-fluid for-whole-body">
         <div class="row">
             <div class="col-12">
-                <header class="header-container col-12">
+                <header class="container header-container col-12">
                     <img class="logo" src="./Public/img/favicon.png" alt="logo img">
                     <h1 class="logoTitle lora">GWM Executive Minibus</h1>
                 </header>
@@ -33,7 +33,6 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-                <!--<a class="navbar-brand" href="#">Hidden brand</a>-->
                 <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                     <li class="nav-item active">
                         <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
@@ -53,11 +52,17 @@
 
 
         <!--This is backgroundimg and front text container-->
-        <div class="row bgimg-and-text">
-            <div class="hero-image"></div>
-            <div class="hero-image-text white text-center">
-                <p class="mainTitle lora">Luxury <br/> Vehicles Edinburgh</p>
-                <button type="button" class="btn btn-danger white">ENQUIRE NOW</button>
+        <div class="container bgimg-and-text">
+            <div class="row bgimg-and-text">
+                <div class="hero-image"></div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 hero-image-text white text-center">
+                            <p class="mainTitle lora">Luxury <br/> Vehicles Edinburgh</p>
+                            <button type="button" class="btn btn-danger white">ENQUIRE NOW</button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="container travel-in-style">
@@ -140,9 +145,11 @@
                 <div class="container top-row-card-deck">
                     <div class="top row card-deck">
                         <div class="card card-inverse card-info mb-3 text-center">
-                            <img class="card-img-top" src="Public/img/service-golf.jpg" alt="Card image cap">
-                            <div class="card-block text-center">
+                            <div class="container img-and-title-group">
+                                <img class="card-img-top" src="Public/img/service-golf.jpg" alt="Card image cap">
                                 <h4 class="card-title">GOLF TOURS</h4>
+                            </div>
+                            <div class="card-block text-center">
                                 <blockquote class="card-blockquote">
                                     <p class="card-text">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
                                         unknown printer took a galley of type and scrambled it to make a type specimen book.
@@ -152,11 +159,12 @@
                             </div>
                         </div>
                         <div class="card card-inverse card-info mb-3 text-center">
-                            <img class="card-img-top" src="Public/img/service-whisky-tour.jpg" alt="Card image cap">
-                            <div class="card-block text-center">
-                                <h4 class="card-title">WHISKY TOURS</h4>
+                            <div class="container img-and-title-group">
+                                <img class="card-img-top" src="Public/img/service-whisky-tour.jpg" alt="Card image cap">
+                                    <h4 class="card-title">WHISKY TOURS</h4>
+                                </div>
+                                <div class="card-block text-center">
                                 <blockquote class="card-blockquote">
-
                                     <p class="card-text">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a
                                         piece of classical Latin literature from 45 BC, making it over 2000 years old.There
                                         are many variations of passages of Lorem Ipsum available</p>
@@ -165,9 +173,11 @@
                             </div>
                         </div>
                         <div class="card card-inverse card-info mb-3 text-center">
-                            <img class="card-img-top" src="https://journalduluxe.fr/wp-content/uploads/2014/07/new-york-nuit.jpg" alt="Card image cap">
-                            <div class="card-block text-center">
-                                <h4 class="card-title">HIRED GUIDES</h4>
+                            <div class="container img-and-title-group">
+                                <img class="card-img-top" src="https://journalduluxe.fr/wp-content/uploads/2014/07/new-york-nuit.jpg" alt="Card image cap">
+                                    <h4 class="card-title">HIRED GUIDES</h4>
+                                </div>
+                                <div class="card-block text-center">
                                 <blockquote class="card-blockquote">
                                     <p class="card-text">It uses a dictionary of over 200 Latin words, combined with a handful of model sentence
                                         structures, to generate Lorem Ipsum which looks reasonable, Lorem Ipsum is not simply
@@ -182,9 +192,11 @@
                 <div class="container bottom-row-card-deck">
                     <div class="bottom row card-deck">
                         <div class="card card-inverse card-info mb-3 text-center">
-                            <img class="card-img-top" src="Public/img/shoreline.jpg" alt="Card image cap">
-                            <div class="card-block text-center">
-                                <h4 class="card-title">SCENIC TOURS</h4>
+                            <div class="container img-and-title-group">
+                                <img class="card-img-top" src="Public/img/shoreline.jpg" alt="Card image cap">
+                                    <h4 class="card-title">SCENIC TOURS</h4>
+                                </div>
+                                <div class="card-block text-center">
                                 <blockquote class="card-blockquote">
                                     <p class="card-text">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a
                                         piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
@@ -193,9 +205,11 @@
                             </div>
                         </div>
                         <div class="card card-inverse card-info mb-3 text-center">
-                            <img class="card-img-top" src="Public/img/service-airport.jpg" alt="Card image cap">
-                            <div class="card-block text-center">
-                                <h4 class="card-title">AIRPORT TRANSFERS</h4>
+                            <div class="container img-and-title-group">
+                                <img class="card-img-top" src="Public/img/service-airport.jpg" alt="Card image cap">
+                                    <h4 class="card-title">AIRPORT TRANSFERS</h4>
+                                </div>
+                                <div class="card-block text-center">
                                 <blockquote class="card-blockquote">
                                     <p class="card-text">There are many variations of passages of Lorem Ipsum available, but the majority have
                                         suffered alteration in some form, by injected humour, or randomised words which don't.</p>
@@ -204,9 +218,11 @@
                             </div>
                         </div>
                         <div class="card card-inverse card-info mb-3 text-center">
-                            <img class="card-img-top" src="http://thebeachchurch.com/images/stories/Facility%20Rental/banner-special-event.jpg" alt="Card image cap">
-                            <div class="card-block text-center">
-                                <h4 class="card-title">SPECIAL EVENTS</h4>
+                            <div class="container img-and-title-group">
+                                <img class="card-img-top" src="http://thebeachchurch.com/images/stories/Facility%20Rental/banner-special-event.jpg" alt="Card image cap">
+                                    <h4 class="card-title">SPECIAL EVENTS</h4>
+                                </div>
+                                <div class="card-block text-center">
                                 <blockquote class="card-blockquote">
                                     <p class="card-text">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a
                                         piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
