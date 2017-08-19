@@ -32,14 +32,14 @@
     background-size: contain;
     background-repeat: no-repeat;
     width: 100%;
-    height: 700px;
+    height: 490px;
 }
 
 .hero-image-text {
     position: absolute;
-    top: 16rem;
-    left: 74px;
-    width: 10rem;
+    top: -22rem;
+    left: -6px;
+    /*width: 10rem;*/
     /* justify-content: center; */
     /* display: flex; */
     /* flex-direction: column; */
@@ -91,6 +91,10 @@ p {
 .visit-us-on {
     margin-left: 2.4rem;
 }
+
+
+
+
 .card-title {
     font-size: 27px;
     height: 45px;
@@ -109,7 +113,7 @@ p {
 }
 
 .travel-in-style {
-    margin-top: -22rem;
+    margin-top: -20rem;
 }
 
 .section-title {
@@ -276,3 +280,14 @@ background-color: #333333;
 }
 
 h1 {font-size: 1.5rem;}
+
+.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+
+  > .col,
+  > [class*="col-"] {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
