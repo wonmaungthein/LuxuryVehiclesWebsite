@@ -1,0 +1,57 @@
+/* Tour With Us */
+.tourWithUs {
+    color: white;
+}
+
+.card-deck-tourWithUs .card {
+    background-color: transparent;
+}
+
+.card-deck-tourWithUs .card-block {
+    padding: 0 0 20px 0;
+    background-color: #6E7788;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.card-deck-tourWithUs .card-title {
+    background-color: maroon;
+    justify-content: center;
+    display: flex;
+    height: auto;
+    margin: auto;
+    padding: 20px 10px 20px 10px;
+    color: white;
+}
+
+.card-deck-tourWithUs .card-text {
+    padding: 20px;
+    color: white;
+}
+
+.card-deck-tourWithUs .btn {
+    padding: 15px 30px 15px 30px;
+    color: white;
+    background-color: transparent;
+    border: 1px solid;
+}
+
+/* News And Events */
+.whatPeople {
+    color: white;
+}
+.news-events {
+    margin-bottom: 50px; 
+}
+.news-events .btn {
+    background-color: gold;
+}
+.news-events img {
+    width: 100%;
+}
+
+/* Horizontal Rules */
+.goldhr {
+    color: gold;
+    margin: 50px 0 50px 0;
+}
