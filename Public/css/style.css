@@ -27,7 +27,6 @@
     color: white;
 }
 
-
 .lora {
     font-family: 'lora',serif;
 }
@@ -96,9 +95,7 @@
     margin-top: 2rem;
 }
 
-
-/*Khaled css*/
-
+/*Khaled css below*/
 #what{
     background: #333333;
     color:white;
@@ -108,7 +105,6 @@
 .whatPeople{
     padding-top: 26px;
 }
-
 
 .quote1 {
     color: #99803e;
@@ -153,14 +149,12 @@
   color:#99803e;
   margin-left:auto;
   margin-right:25px;;
-
 }
 
 p{
     color: white;
     font-size: 22px;   
 }
-
 
 .author{
     color: #99803e ;
@@ -171,7 +165,6 @@ p{
     border-radius: 0;
     margin-top: -100px;
 }
-
 
 #contact{
     border-radius: 0;
@@ -184,8 +177,6 @@ p{
     border-width: 2px;
     font-size: 27px;
     margin-bottom: 100px;
-
-
 }
 /*I dont know how to add a border when hovering everything moves*/
 #contact:hover{
@@ -202,7 +193,6 @@ p{
     box-shadow: solid grey;
     box-sizing: border-box;
     color: grey;
-
 }
 
 #contactus{
@@ -221,8 +211,6 @@ background-image: url('http://freebigpictures.com/wp-content/uploads/sunset-fore
         background-size: cover;
         max-width: 'initial'
 }
-
-
 
 .contactlist{
      color:white;
@@ -261,7 +249,6 @@ h1.contactlist.first{
     margin: auto;
     display:flex;
 }
-
 
 .icons{
     font-size: 42px;
