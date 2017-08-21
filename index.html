@@ -2,248 +2,171 @@
 <html lang="en">
 
 <head>
-    <title>Layout system for our group project</title>
+    <title>LuxuryVehiclesWebsite </title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" type="text/css" href="./public/css/style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M"
         crossorigin="anonymous">
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1"
-        crossorigin="anonymous"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" type="text/css" href="./public/css/layout.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
         crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"
-        crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Lato|Lora" rel="stylesheet">
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
         crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
         crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1"
+        crossorigin="anonymous"></script>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
         crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+        crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         crossorigin="anonymous"></script>
 </head>
 
 <body>
     <!--This is for container fluid-->
     <div class="container-fluid for-whole-body">
-        <div class="row">
-            <div class="col-12">
-                <header class="container header-container col-12">
+        <div class="row black">
+            <div class="col-4 col-8 col-12 d-flex justify-content-center">
+                <header class="header-container d-flex justify-content-center col-4 col-8">
                     <img class="logo" src="./Public/img/favicon.png" alt="logo img">
-                    <h1 class="logoTitle lora">GWM Executive Minibus</h1>
+                    <h1 class="col-8 align-self-center logoTitle white lora">GWM Executive Minibus</h1>
                 </header>
             </div>
         </div>
 
         <!--navbar container -->
-        <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01"
-                aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Tours</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact us</a>
-                    </li>
-                </ul>
+        <div class="row yellowish">
+            <div class="col-12">
+                <nav class="d-flex justify-content-center navbar navbar-toggleable-md navbar-light bg-faded">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                     <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="d-flex justify-content-center col-4 collapse navbar-collapse" id="navbarTogglerDemo01">
+                        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Tours</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contact us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
             </div>
-        </nav>
-
+        </div>
 
         <!--This is backgroundimg and front text container-->
-        <div class="container bgimg-and-text">
-            <div class="row bgimg-and-text">
-                <div class="hero-image"></div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-12 hero-image-text white text-center">
+
+        <div class="row bgimg-and-text bordercolor">
+            <div class="hero-image">
+                <div class="container hero-image-text ">
+                    <div class="bordercolor white">
+                        <div class="bordercolor">
                             <p class="mainTitle lora">Luxury <br/> Vehicles Edinburgh</p>
+                        </div>
+                        <div class="bordercolor">
                             <button type="button" class="btn btn-danger white">ENQUIRE NOW</button>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="container travel-in-style">
+
+
+
+
+
+
+        <div class="container travel-in-style bordercolor">
             <div class="row">
-                <div class="col-12 section-title text-center lora">
+                <div class="col-12 section-title text-center lora white">
                     <h1>Travel in Style</h1>
                 </div>
             </div>
-        </div>
-        <div class="container three-columns-container white text-center">
-            <hr class="greenhr">
-            <div class="row">
-                <div class="col-12">
-                    <h3>16 SEATER MINIBUS</h3>
-                    <p class="card-text">vel augue laoreet rutrum faucibus dolor auctor. Nulla vitae libero, a pharetra augue.Maecenas sed diam
-                        egetrisus varius blandit sit amet non
-                    </p>
-                </div>
-                <div class="col-12">
-                    <h3>LUXURY INTERIORS</h3>
-                    <p class="card-text">
-                        vel augue laoreet rutrum faucibus dolor auctor. Nulla vitae elit libero, a pharetra augue. Maecenas sed diam eget risus varius
-                        blandit sit amet non
-                    </p>
-                </div>
-                <div class="col-12">
-                    <h3>TOURS</h3>
-                    <p class="card-text">
-                        vel augue laoreet rutrum faucibus dolor auctor. Nulla vitae elit libero, a pharetra augue. Maecenas sed diam eget risus varius
-                        blandit sit amet non
-                        <hr class="greenhr">
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!--This is 2 columns layout with first one is wider-->
-    <div class="container bluebox-and-carimg white text-center">
-        <div class="row">
-            <div class="col-12 card-block blue">
-                <h4 class="card-title lora white">Title Heading</h4>
-                <p class="card-text">Vivamus sagitts lacus vel augue laoreet rutrum faucibus dolor auctor. Nulla vitae elit libero, a pharetra
-                    aguge. Maecenas sed diam eget risus varius blandit sit amet non magna. Morbi leo risus, porta ac consectetur.
-                    libero, a pharetra.</p>
-                <button type="button" class="btn btn-danger white">LEARN MORE</button>
-            </div>
-            <div class="col-12">
-                <img class="cars above" src="./Public/img/openroof.jpg " alt="Open cars photo">
-            </div>
-        </div>
-    </div>
-    <!--This is 2 columns layout with last one is wider-->
-    <div class="container carimg-and-yellowbox white text-center">
-        <div class="row">
-            <div class="col-12">
-                <img class="cars below" src="./Public/img/Tesla.jpg " alt="car photo">
-            </div>
-            <div class="col-12 card-block yellowish">
-                <h4 class="card-title lora white">Title Heading</h4>
-                <p class="card-text">Vivamus sagitts lacus vel augue laoreet rutrum faucibus dolor auctor. Nulla vitae elit libero, a pharetra
-                    augue. Maecenas sed diam eget risus varius blandit sit amet non magna. Morbi leo risus, porta ac consectetur.
-                    libero, a pharetra.</p>
-                <button type="button" class="btn btn-danger white">LEARN MORE</button>
-            </div>
-        </div>
-    </div>
-    <!--Simon html part herebackground colour-->
 
-    <div class="background-color-blue">
-        <div class="container take-a-tour-with-us white text-center">
-            <div class="row">
-                <div class="col-12 text-center">
-                    <h1>Take a Tour with us</h1>
-                </div>
-            </div>
-        </div>
-        <hr class="greenhr">
-        <div class="container card-decks-container white text-center">
-            <div class="row">
-                <div class="container top-row-card-deck">
-                    <div class="top row card-deck">
-                        <div class="card card-inverse card-info mb-3 text-center">
-                            <div class="container img-and-title-group">
-                                <img class="card-img-top" src="Public/img/service-golf.jpg" alt="Card image cap">
-                                <h4 class="card-title">GOLF TOURS</h4>
-                            </div>
-                            <div class="card-block text-center">
-                                <blockquote class="card-blockquote">
-                                    <p class="card-text">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
-                                        unknown printer took a galley of type and scrambled it to make a type specimen book.
-                                    </p>
-                                    <button type="button" class="btn btn-secondary">READ MORE</button>
-                                </blockquote>
-                            </div>
-                        </div>
-                        <div class="card card-inverse card-info mb-3 text-center">
-                            <div class="container img-and-title-group">
-                                <img class="card-img-top" src="Public/img/service-whisky-tour.jpg" alt="Card image cap">
-                                <h4 class="card-title">WHISKY TOURS</h4>
-                            </div>
-                            <div class="card-block text-center">
-                                <blockquote class="card-blockquote">
-                                    <p class="card-text">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a
-                                        piece of classical Latin literature from 45 BC, making it over 2000 years old.There
-                                        are many variations of passages of Lorem Ipsum available</p>
-                                    <button type="button" class="btn btn-secondary">READ MORE</button>
-                                </blockquote>
-                            </div>
-                        </div>
-                        <div class="card card-inverse card-info mb-3 text-center">
-                            <div class="container img-and-title-group">
-                                <img class="card-img-top" src="https://journalduluxe.fr/wp-content/uploads/2014/07/new-york-nuit.jpg" alt="Card image cap">
-                                <h4 class="card-title">HIRED GUIDES</h4>
-                            </div>
-                            <div class="card-block text-center">
-                                <blockquote class="card-blockquote">
-                                    <p class="card-text">It uses a dictionary of over 200 Latin words, combined with a handful of model sentence
-                                        structures, to generate Lorem Ipsum which looks reasonable, Lorem Ipsum is not simply
-                                        random text.</p>
-                                    <button type="button" class="btn btn-secondary">READ MORE</button>
-                                </blockquote>
-                            </div>
-                        </div>
+            <div class="three-columns-container white text-center">
+                <hr class="greenhr">
+                <div class="row">
+                    <div class="col-sm">
+                        <h3>16 SEATER MINIBUS</h3>
+                        <p class="card-text">vel augue laoreet rutrum faucibus dolor auctor. Nulla vitae libero, a pharetra augue.Maecenas sed
+                            diam egetrisus varius blandit sit amet non
+                        </p>
+                    </div>
+                    <div class="col-sm">
+                        <h3>LUXURY INTERIORS</h3>
+                        <p class="card-text">
+                            vel augue laoreet rutrum faucibus dolor auctor. Nulla vitae elit libero, a pharetra augue. Maecenas sed diam eget risus varius
+                            blandit sit amet non
+                        </p>
+                    </div>
+                    <div class="col-sm">
+                        <h3>TOURS</h3>
+                        <p class="card-text">
+                            vel augue laoreet rutrum faucibus dolor auctor. Nulla vitae elit libero, a pharetra augue. Maecenas sed diam eget risus varius
+                            blandit sit amet non
+                        </p>
                     </div>
                 </div>
+                <hr class="greenhr">
+            </div>
+            <!--This is 2 columns layout with first one is wider-->
+            <!--<div class="row ">-->
+            <div class="container top-container">
+                <div class="row bluebox-and-carimg white bordercolor">
+                    <div class="card bg-blue">
+                        <div class="card-body">
+                            <h4 class="card-title lora white">Title Heading</h4>
+                            <p class="card-text">Vivamus sagitts lacus vel augue laoreet rutrum faucibus dolor auctor. Nulla vitae elit libero,
+                                a pharetra aguge. Maecenas sed diam eget risus varius blandit sit amet non magna. Morbi leo
+                                risus, porta ac consectetur. libero, a pharetra.</p>
+                            <a href="#" class="btn btn-danger white">LEARN MORE</a>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <img class="car1" src="./Public/img/openroof.jpg " alt="Open cars photo">
+                    </div>
+                </div>
+            </div>
+            <!--</div>-->
 
-                <div class="container bottom-row-card-deck">
-                    <div class="bottom row card-deck">
-                        <div class="card card-inverse card-info mb-3 text-center">
-                            <div class="container img-and-title-group">
-                                <img class="card-img-top" src="Public/img/shoreline.jpg" alt="Card image cap">
-                                <h4 class="card-title">SCENIC TOURS</h4>
-                            </div>
-                            <div class="card-block text-center">
-                                <blockquote class="card-blockquote">
-                                    <p class="card-text">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a
-                                        piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
-                                    <button type="button" class="btn btn-secondary">READ MORE</button>
-                                </blockquote>
-                            </div>
-                        </div>
-                        <div class="card card-inverse card-info mb-3 text-center">
-                            <div class="container img-and-title-group">
-                                <img class="card-img-top" src="Public/img/service-airport.jpg" alt="Card image cap">
-                                <h4 class="card-title">AIRPORT TRANSFERS</h4>
-                            </div>
-                            <div class="card-block text-center">
-                                <blockquote class="card-blockquote">
-                                    <p class="card-text">There are many variations of passages of Lorem Ipsum available, but the majority have
-                                        suffered alteration in some form, by injected humour, or randomised words which don't.</p>
-                                    <button type="button" class="btn btn-secondary">READ MORE</button>
-                                </blockquote>
-                            </div>
-                        </div>
-                        <div class="card card-inverse card-info mb-3 text-center">
-                            <div class="container img-and-title-group">
-                                <img class="card-img-top" src="http://thebeachchurch.com/images/stories/Facility%20Rental/banner-special-event.jpg" alt="Card image cap">
-                                <h4 class="card-title">SPECIAL EVENTS</h4>
-                            </div>
-                            <div class="card-block text-center">
-                                <blockquote class="card-blockquote">
-                                    <p class="card-text">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a
-                                        piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
-                                    <button type="button" class="btn btn-secondary">READ MORE</button>
-                                </blockquote>
-                            </div>
+            <!--This is 2 columns layout with last one is wider-->
+            <div class="container bottom-container">
+                <div class="row carimg-and-yellowbox white bordercolor">
+                    <div class="col-sm">
+                        <img class="car2" src="./Public/img/Tesla.jpg " alt="car photo">
+                    </div>
+                    <div class="card bg-yellow">
+                        <div class="card-body bordercolorblue">
+                            <h4 class="card-title lora white">Title Heading</h4>
+                            <p class="card-text">Vivamus sagitts lacus vel augue laoreet rutrum faucibus dolor auctor. Nulla vitae elit libero,
+                                a pharetra aguge. Maecenas sed diam eget risus varius blandit sit amet non magna. Morbi leo
+                                risus, porta ac consectetur. libero, a pharetra.</p>
+                            <a href="#" class="btn btn-danger white">LEARN MORE</a>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
 
 
 
@@ -255,160 +178,267 @@
 
 
 
-    <!--NEWS AND EVENTS -->
-    <div class="background-colour-grey">
-        <div class="container news-events-container">
-            <div class="row">
-                <div class="col-12 text-center">
-                    <h2 class="news-events-title">NEWS & EVENTS</h2>
-                </div>
-            </div>
-        </div>
-        <hr class="greenhr">
-        <div class="container top-row-paragraph-img white text-center">
-            <div class="row">
-                <div class="col-12">
-                    <h2>Events Coming Up...</h2>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
-                        standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled
-                        it to make a type specimen book.
-                    </p>
-                    <button type="button" class="btn btn-success">READMORE</button>
-                </div>
-                <div class="col-12">
-                    <img src="/home/coder/projects/group-projects/LuxuryVehiclesWebsite/Public/img/horse-racing.jpg">
-                </div>
-            </div>
-        </div>
-        <div class="container bottom-row-paragraph-img white text-center">
-            <div class="row">
-                <div class="col-12">
-                    <h2>Events Coming Up...</h2>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
-                        standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled
-                        it to make a type specimen book.
-                    </p>
-                    <button type="button" class="btn btn-success">READMORE</button>
-                </div>
-                <div class="col-12">
-                    <img src="/home/coder/projects/group-projects/LuxuryVehiclesWebsite/Public/img/horse-racing.jpg">
-                </div>
-            </div>
-        </div>
-        <hr class="greenhr">
-    </div>
 
 
-    <!-- Khaled part -->
-    <div class="background-color-darkgrey">
-        <div class="container what-people-are-saying-container white text-center">
-            <div class="row">
-                <div class="col-12 text-center">
-                    <h1>What people are saying</h1>
-                </div>
-            </div>
-        </div>
-        <hr class="bluehr">
-        <div class="container paragraphs-and-authors white text-center">
-            <div class="row">
-                <div class="container top-row-container-with-author">
-                    <div class="row ">
-                        <div class="col-sm hidden-xs-down ">
-                            <p class="text-right quote1">“</p>
-                        </div>
-                        <div class="col-sm-7 ">
-                            <p class="text-center "> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod assumenda veniam rem officiis
-                                nesciunt quis, ipsum. Aspernatur nam ut, animi, totam, tempora, magni dolorem minus r epellendus
-                                rem consectetur quae iure!
-                            </p>
-                            <p class="text-center author ">Khaled zaki - Yemen</p>
-                        </div>
-                        <div class="col-sm hidden-xs-down ">
-                            <p class="quote2 ">”</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="container bottom-row-container-with-author white text-center">
+
+
+
+            <!--Simon html part herebackground colour-->
+
+            <div class="background-color-blue">
+                <div class="container take-a-tour-with-us white text-center">
                     <div class="row">
-                        <div class="col-sm hidden-xs-down ">
-                            <p class="text-right quote1 ">“</p>
-                        </div>
-                        <div class="col-sm-7 ">
-                            <p class="text-center "> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod assumenda veniam rem officiis
-                                nesciunt quis, ipsum. Aspernatur nam ut, animi, totam, tempora, magni dolorem minus r epellendus
-                                rem consectetur quae iure!
-                            </p>
-                            <p class="text-center author ">Khaled zaki - Yemen</p>
-                        </div>
-                        <div class="col-sm hidden-xs-down ">
-                            <p class="quote2 ">”</p>
+                        <div class="col-12 text-center">
+                            <h1>Take a Tour with us</h1>
                         </div>
                     </div>
                 </div>
-                <button type="button " class="btn btn-danger text-center visit-us-on">VISIT US ON TRIP ADVISOR</button>
+                <hr class="greenhr">
+                <div class="container card-decks-container white text-center">
+                    <div class="row">
+                        <div class="container top-row-card-deck">
+                            <div class="top row card-deck">
+                                <div class="card card-inverse card-info mb-3 text-center">
+                                    <div class="container img-and-title-group">
+                                        <img class="card-img-top" src="Public/img/service-golf.jpg" alt="Card image cap">
+                                        <h4 class="card-title">GOLF TOURS</h4>
+                                    </div>
+                                    <div class="card-block text-center">
+                                        <blockquote class="card-blockquote">
+                                            <p class="card-text">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                                when an unknown printer took a galley of type and scrambled it to make a
+                                                type specimen book.
+                                            </p>
+                                            <button type="button" class="btn btn-secondary">READ MORE</button>
+                                        </blockquote>
+                                    </div>
+                                </div>
+                                <div class="card card-inverse card-info mb-3 text-center">
+                                    <div class="container img-and-title-group">
+                                        <img class="card-img-top" src="Public/img/service-whisky-tour.jpg" alt="Card image cap">
+                                        <h4 class="card-title">WHISKY TOURS</h4>
+                                    </div>
+                                    <div class="card-block text-center">
+                                        <blockquote class="card-blockquote">
+                                            <p class="card-text">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots
+                                                in a piece of classical Latin literature from 45 BC, making it over 2000
+                                                years old.There are many variations of passages of Lorem Ipsum available</p>
+                                            <button type="button" class="btn btn-secondary">READ MORE</button>
+                                        </blockquote>
+                                    </div>
+                                </div>
+                                <div class="card card-inverse card-info mb-3 text-center">
+                                    <div class="container img-and-title-group">
+                                        <img class="card-img-top" src="https://journalduluxe.fr/wp-content/uploads/2014/07/new-york-nuit.jpg" alt="Card image cap">
+                                        <h4 class="card-title">HIRED GUIDES</h4>
+                                    </div>
+                                    <div class="card-block text-center">
+                                        <blockquote class="card-blockquote">
+                                            <p class="card-text">It uses a dictionary of over 200 Latin words, combined with a handful of model
+                                                sentence structures, to generate Lorem Ipsum which looks reasonable, Lorem
+                                                Ipsum is not simply random text.</p>
+                                            <button type="button" class="btn btn-secondary">READ MORE</button>
+                                        </blockquote>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="container bottom-row-card-deck">
+                            <div class="bottom row card-deck">
+                                <div class="card card-inverse card-info mb-3 text-center">
+                                    <div class="container img-and-title-group">
+                                        <img class="card-img-top" src="Public/img/shoreline.jpg" alt="Card image cap">
+                                        <h4 class="card-title">SCENIC TOURS</h4>
+                                    </div>
+                                    <div class="card-block text-center">
+                                        <blockquote class="card-blockquote">
+                                            <p class="card-text">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots
+                                                in a piece of classical Latin literature from 45 BC, making it over 2000
+                                                years old.</p>
+                                            <button type="button" class="btn btn-secondary">READ MORE</button>
+                                        </blockquote>
+                                    </div>
+                                </div>
+                                <div class="card card-inverse card-info mb-3 text-center">
+                                    <div class="container img-and-title-group">
+                                        <img class="card-img-top" src="Public/img/service-airport.jpg" alt="Card image cap">
+                                        <h4 class="card-title">AIRPORT TRANSFERS</h4>
+                                    </div>
+                                    <div class="card-block text-center">
+                                        <blockquote class="card-blockquote">
+                                            <p class="card-text">There are many variations of passages of Lorem Ipsum available, but the majority
+                                                have suffered alteration in some form, by injected humour, or randomised
+                                                words which don't.</p>
+                                            <button type="button" class="btn btn-secondary">READ MORE</button>
+                                        </blockquote>
+                                    </div>
+                                </div>
+                                <div class="card card-inverse card-info mb-3 text-center">
+                                    <div class="container img-and-title-group">
+                                        <img class="card-img-top" src="http://thebeachchurch.com/images/stories/Facility%20Rental/banner-special-event.jpg" alt="Card image cap">
+                                        <h4 class="card-title">SPECIAL EVENTS</h4>
+                                    </div>
+                                    <div class="card-block text-center">
+                                        <blockquote class="card-blockquote">
+                                            <p class="card-text">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots
+                                                in a piece of classical Latin literature from 45 BC, making it over 2000
+                                                years old.</p>
+                                            <button type="button" class="btn btn-secondary">READ MORE</button>
+                                        </blockquote>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--NEWS AND EVENTS -->
+            <div class="background-colour-grey">
+                <div class="container news-events-container">
+                    <div class="row">
+                        <div class="col-12 text-center">
+                            <h2 class="news-events-title">NEWS & EVENTS</h2>
+                        </div>
+                    </div>
+                </div>
+                <hr class="greenhr">
+                <div class="container top-row-paragraph-img white text-center">
+                    <div class="row">
+                        <div class="col-12">
+                            <h2>Events Coming Up...</h2>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                                the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+                                of type and scrambled it to make a type specimen book.
+                            </p>
+                            <button type="button" class="btn btn-success">READMORE</button>
+                        </div>
+                        <div class="col-12">
+                            <img class="card-img-top" src="./Public/img/horse-racing.jpg">
+                        </div>
+                    </div>
+                </div>
+                <div class="container bottom-row-paragraph-img white text-center">
+                    <div class="row">
+                        <div class="col-12">
+                            <h2>Events Coming Up...</h2>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                                the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+                                of type and scrambled it to make a type specimen book.
+                            </p>
+                            <button type="button" class="btn btn-success">READMORE</button>
+                        </div>
+                        <div class="col-12">
+                            <img src="/home/coder/projects/group-projects/LuxuryVehiclesWebsite/Public/img/horse-racing.jpg">
+                        </div>
+                    </div>
+                </div>
+                <hr class="greenhr">
+            </div>
+
+
+            <!-- Khaled part -->
+            <div id="what">
+                <h1 class="text-center" id="whatPeople">What people are saying</h1>
+                <hr class="bluehr">
+                <div class="row">
+                    <div class="col-sm hidden-xs-down">
+                        <p class="text-right  quote1">“</p>
+                    </div>
+                    <div class="col-sm-7">
+                        <p class="text-center"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod assumenda veniam rem officiis nesciunt
+                            quis, ipsum. Aspernatur nam ut, animi, totam, tempora, magni dolorem minus r epellendus rem consectetur
+                            quae iure!
+                        </p>
+                        <p class="text-center author">Khaled zaki - Yemen</p>
+                    </div>
+                    <div class="col-sm hidden-xs-down">
+                        <p class="quote2">”</p>
+                    </div>
+                </div>
+                <div class="row" id="secondquote">
+                    <div class="col-sm hidden-xs-down">
+                        <p class="text-right  quote1 ">“</p>
+                    </div>
+                    <div class="col-sm-7">
+                        <p class="text-center"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod assumenda veniam rem officiis nesciunt
+                            quis, ipsum. Aspernatur nam ut, animi, totam, tempora, magni dolorem minus r epellendus rem consectetur
+                            quae iure!
+                        </p>
+                        <p class="text-center author">Khaled zaki - Yemen</p>
+                    </div>
+                    <div class="col-sm hidden-xs-down">
+                        <p class="quote2">”</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col text-center">
+                        <button type="button" class="btn btn-danger text-center" id="visit">VISIT US ON TRIP ADVISOR</button>
+                    </div>
+                </div>
+                <div class="container-fluid" id="contactus">
+                    <div class="col text-center norotate">
+                        <h1 class="contactlist first">Group Transport</h1>
+                        <h1 class="contactlist">Airport Transfers</h1>
+                        <h1 class="contactlist">Tours</h1>
+                        <button type="button" class="btn btn-danger text-center" id="contact">Contact Us Now</button>
+                    </div>
+                </div>
+                <div class="row" id="footer">
+                    <div class="col-lg-4">
+                        <h2>Contact us</h2>
+                        <hr class="yellowhr">
+                        <p class="footeradjust">Phone: +44 (0) 7471234567
+                            <br /> Mobile: +44 (0) 7471234567
+                            <br /> Email: email@mastertontours.com </p>
+                        <hr class="downhr">
+                    </div>
+                    <div class="col-lg-4">
+                        <h2>About Us</h2>
+                        <hr class="yellowhr">
+                        <p class="footeradjust">About GWM
+                            <br /> Tour Options
+                            <br /> Upcoming Events
+                            <br /> Reviews </p>
+                        <hr class="yellowhr">
+                    </div>
+                    <div class="col-lg-4">
+                        <h2>Information</h2>
+                        <hr class="yellowhr">
+                        <p class="footeradjust">Privacy policy <br /> Cookie Policy <br /> Terms and Conditions </p>
+                        <hr class="downhr">
+                    </div>
+                </div>
+                <div class="row " id="rights ">
+                    <div class="col-md-4 ">
+                        <p id="copywright ">@2017 GWM Executive Minibus <span class="brownish ">|</span> Website By Pooka</p>-->
+                    </div>
+                    <div class="col-md-4 ">
+                    </div>
+                    <div class="col-md-4 ">
+
+                        <a class="icons " href="# "> <i class="fa fa-facebook "></i></a>
+                        <a class="icons " href="# "> <i class="fa fa-twitter "></i></a>
+                        <a class="icons " href="# "> <i class="fa fa-instagram "></i></a>
+                    </div>
+                    <div class="row" id="rights">
+                        <div class="col-md-4">
+                            <p id="copywright">@2017 GWM Executive Minibus <span class="brownish">|</span> Website By Pooka</p>
+                        </div>
+                        <div class="col-md-4">
+                        </div>
+                        <div class="col-md-4">
+                            <a class="icons" href="#"> <i class="fa fa-facebook"></i></a>
+                            <a class="icons" href="#"> <i class="fa fa-twitter"></i></a>
+                            <a class="icons" href="#"> <i class="fa fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 
-
-    <div class="container contact-us-container white text-center yellowish">
-        <div class="row">
-            <div class="container-fluid " id="contactus ">
-                <div class="col text-center norotate ">
-                    <h1 class="contactlist first ">Group Transport</h1>
-                    <h1 class="contactlist ">Airport Transfers</h1>
-                    <h1 class="contactlist ">Tours</h1>
-                    <button type="button " class="btn btn-danger text-center " id="contact ">Contact Us Now</button>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!--This is for 3 columns layout-->
-    <div class="background-color-darkgrey">
-        <div class="container footer-top-row white text-center">
-            <div class="row footer-top-row">
-                <div class="col-12 contact-us">
-                    <h2>Contact us</h2>
-                    <hr class="yellowhr">
-                    <p class="footeradjust ">Phone: +44 (0) 7471234567
-                        <br /> Mobile: +44 (0) 7471234567
-                        <br /> Email: email@mastertontours.com </p>
-                    <hr class="downhr ">
-                </div>
-                <div class="col-12 about-us">
-                    <h2>About Us</h2>
-                    <hr class="yellowhr ">
-                    <p class="footeradjust ">About GWM
-                        <br /> Tour Options
-                        <br /> Upcoming Events
-                        <br /> Reviews </p>
-                    <hr class="downhr ">
-                </div>
-                <div class="col-12 information">
-                    <h2>Information</h2>
-                    <hr class="yellowhr ">
-                    <p class="footeradjust ">Privacy policy <br /> Cookie Policy <br /> Terms and Conditions </p>
-                    <hr class="downhr ">
-                </div>
-            </div>
-        </div>
-        <!--This is for 3 columns layout-->
-        <div class="container footer-bottom-row white text-center">
-            <div class="row footer-bottom-row">
-                <div class="col-12 copyright-col">
-                    <p id="copywright ">@2017 GWM Executive Minibus <span class="brownish ">|</span> Website By Pooka</p>
-                </div>
-                <div class="col-md-12 empty-col">
-                </div>
-                <div class="col-md-12 media-logo-col">
-                    <a class="icons " href="# "> <i class="fa fa-facebook "></i></a>
-                    <a class="icons " href="# "> <i class="fa fa-twitter "></i></a>
-                    <a class="icons " href="# "> <i class="fa fa-instagram "></i></a>
-                </div>
-            </div>
-        </div>
-    </div>
 </body>
 
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js " integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn "

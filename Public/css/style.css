@@ -1,4 +1,104 @@
 
+/*body {
+    background-color: #333333;
+}*/
+
+.for-whole-body{ 
+    background-color: #333333;
+}
+
+.logo {
+    width: 4rem;
+    height: 4rem;
+    }
+
+.bordercolor {
+        border: 1px solid yellow;
+}
+.bordercolorblue {
+        border: 2px solid blue;
+}
+
+.black {
+        background-color: black;
+}
+
+.white {
+    color: white;
+}
+
+
+.lora {
+    font-family: 'lora',serif;
+}
+
+.yellowish {
+    background-color: #99803e;
+}
+
+.hero-image {
+    position: relative;
+    background-image: url("../img/backGround.jpg");
+    -webkit-clip-path: polygon(0 23%, 100% 5%, 100% 85%, 0% 100%);
+    clip-path: polygon(0 0%, 100% 0%, 100% 79%, 0% 93%);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 708px;
+}
+
+.mainTitle {
+    font-size: 34px;
+    line-height: 4rem;
+    height: 100%;
+}
+
+.greenhr{
+  -moz-border-bottom-colors: none;
+  -moz-border-image: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-top-colors: none;
+  border-color: #EEEEEE -moz-use-text-color #FFFFFF;
+  border-style: solid none;
+  border-width: 3px 0;
+  margin: 18px 0;
+  color:#99803e;
+  margin-left:auto;
+  margin-right:auto;
+  /*width: 95%;*/
+}
+
+.blue {
+    background-color:#2F6080;
+}
+
+.bg-blue { 
+    background-color:#2F6080 !important; 
+    width: 62%}
+
+.bg-yellow { 
+    background-color:#99803e !important; 
+    width: 62%}
+
+.car1 {
+    height: 270px;
+    width: 152%;
+    margin-left: 2rem;
+} 
+
+.car2 {
+    height: 270px;
+    width: 92%;
+} 
+
+.bottom-container {
+    margin-top: 2rem;
+}
+
+
+/*Khaled css*/
+
 #what{
     background: #333333;
     color:white;
@@ -38,7 +138,6 @@
   color:#728dd9;
   margin-left:auto;
   margin-right:auto;
-  width: 95%;
 }
 
 .yellowhr{
@@ -201,17 +300,3 @@ h1.contactlist.first{
 }
 
 **/
-
-#imgSimon{
-    box-sizing: border-box;
-    margin: 20px;
-    height: 262px;
-    background: url('http://www.equineworld.co.uk/media/k2/items/cache/665e3353c5a0a1298b58f0408e39e998_L.jpg');
-}
-#titlesSimon{
-margin: 20px;
-    height: 262px;
-    box-sizing: border-box;
-
-}
-
