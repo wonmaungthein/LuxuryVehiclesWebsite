@@ -4,7 +4,7 @@
 }*/
 
 .for-whole-body{ 
-    background-color: #333333;
+    background-color:#222b2f;
 }
 
 .logo {
@@ -47,11 +47,14 @@
 }
 
 .mainTitle {
-    font-size: 34px;
+    font-size: 40px;
     line-height: 4rem;
     height: 100%;
 }
 
+.travel-in-style{
+    margin-top: 4rem;
+}
 .greenhr{
   -moz-border-bottom-colors: none;
   -moz-border-image: none;
@@ -82,24 +85,106 @@
 
 .car1 {
     height: 270px;
-    width: 152%;
+    width: 95%;
     margin-left: 2rem;
 } 
-
+.hero-image-text{
+    margin-top: 18rem;
+}
 .car2 {
     height: 270px;
-    width: 92%;
+    width: 93%;
 } 
 
 .bottom-container {
     margin-top: 2rem;
 }
 
+
+/*Simon css below*/
+
+/* Tour With Us */
+.tourWithUs {
+    color: white;
+}
+
+.tourWithUs {
+    margin-top: 4rem;
+}
+.card-deck-tourWithUs .card {
+    background-color: transparent;
+}
+
+.card-deck-tourWithUs .card-block {
+    padding: 0 0 20px 0;
+    background-color: rgb(148, 159, 179);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.news-and-events-session {
+    background-color: #333333;
+}
+
+.card-deck-tourWithUs .card-title {
+    background-color: maroon;
+    justify-content: center;
+    display: flex;
+    height: auto;
+    margin: auto;
+    padding: 20px 10px 20px 10px;
+    color: white;
+}
+
+.card-deck-tourWithUs .card-text {
+    padding: 20px;
+    color: white;
+}
+
+.card-deck-tourWithUs .btn {
+    padding: 15px 30px 15px 30px;
+    color: white;
+    background-color: transparent;
+    border: 1px solid;
+}
+
+/* News And Events */
+/*.whatPeople {
+    color: white;
+}*/
+
+.take-a-tour-with-us-session{
+    background-color: #6E7788;
+}
+.news-and-events {
+    margin-top: 4rem;
+}
+
+
+.news-events {
+    margin-bottom: 50px; 
+}
+.news-events .btn {
+    background-color: gold;
+}
+.news-events img {
+    width: 100%;
+}
+
+/* Horizontal Rules */
+.goldhr {
+    color: gold;
+    margin: 50px 0 50px 0;
+}
+
+/*simon css ends here*/
+
 /*Khaled css below*/
 #what{
     background: #333333;
     color:white;
     font-family: 'lora',serif;
+    margin-top: 4rem;
 }
 
 .whatPeople{
@@ -150,6 +235,10 @@
   margin-left:auto;
   margin-right:25px;;
 }
+
+.card-text {
+    font-size: 17px;
+    }
 
 p{
     color: white;
@@ -210,6 +299,7 @@ background-image: url('http://freebigpictures.com/wp-content/uploads/sunset-fore
         -o-background-size: cover;
         background-size: cover;
         max-width: 'initial'
+        
 }
 
 .contactlist{
