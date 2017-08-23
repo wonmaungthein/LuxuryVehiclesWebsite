@@ -43,17 +43,17 @@
     background-size: contain;
     background-repeat: no-repeat;
     width: 100%;
-    height: 708px;
+    height: 444px;
 }
 
 .mainTitle {
-    font-size: 40px;
-    line-height: 4rem;
+    font-size: 31px;
+    line-height: 3rem;
     height: 100%;
 }
 
 .travel-in-style{
-    margin-top: 4rem;
+    margin-top: -4rem;
 }
 .greenhr{
   -moz-border-bottom-colors: none;
@@ -85,20 +85,345 @@
 
 .car1 {
     height: 270px;
-    width: 95%;
-    margin-left: 2rem;
+    width: 106%;
+    margin-left: 0rem;
 } 
-.hero-image-text{
-    margin-top: 18rem;
+.hero-image-text-and-button{
+    margin-top: 12rem;
 }
 .car2 {
     height: 270px;
-    width: 93%;
+    width: 106%;
 } 
 
 .bottom-container {
     margin-top: 2rem;
 }
+
+.three-columns-container .row .sm-paragraph {
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+
+@media screen and (min-width: 370px) {
+
+.hero-image-text-and-button{
+    margin-top: 15rem;
+}
+
+.hero-image {
+    position: relative;
+    background-image: url("../img/backGround.jpg");
+    -webkit-clip-path: polygon(0 23%, 100% 5%, 100% 85%, 0% 100%);
+    clip-path: polygon(0 0%, 100% 0%, 100% 79%, 0% 93%);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 489px;
+}
+
+}
+
+@media screen (min-width: 394px) {
+/*.hero-image-text-and-button {
+    margin-top: 15rem;
+}*/
+
+
+.hero-image-text-and-button{
+    margin-top: 15rem;
+}
+
+.hero-image {
+    position: relative;
+    background-image: url("../img/backGround.jpg");
+    -webkit-clip-path: polygon(0 23%, 100% 5%, 100% 85%, 0% 100%);
+    clip-path: polygon(0 0%, 100% 0%, 100% 79%, 0% 93%);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 565px;
+}
+
+.travel-in-style{
+    margin-top: -8rem;
+}
+}
+
+
+@media screen and (min-width: 425px) {
+/*.hero-image-text-and-button {
+    margin-top: 15rem;
+}*/
+
+
+.hero-image-text-and-button{
+    margin-top: 16rem;
+}
+
+.hero-image {
+    position: relative;
+    background-image: url("../img/backGround.jpg");
+    -webkit-clip-path: polygon(0 23%, 100% 5%, 100% 85%, 0% 100%);
+    clip-path: polygon(0 0%, 100% 0%, 100% 79%, 0% 93%);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 565px;
+}
+
+.travel-in-style{
+    margin-top: -8rem;
+}
+}
+
+
+@media screen and (min-width: 452px) {
+.hero-image-text-and-button {
+    margin-top: 16rem;
+}
+}
+
+
+@media screen and (min-width: 464px) {
+/*.hero-image-text-and-button {
+    margin-top: 15rem;
+}*/
+
+
+.hero-image-text-and-button{
+    margin-top: 17rem;
+}
+
+.hero-image {
+    position: relative;
+    background-image: url("../img/backGround.jpg");
+    -webkit-clip-path: polygon(0 23%, 100% 5%, 100% 85%, 0% 100%);
+    clip-path: polygon(0 0%, 100% 0%, 100% 79%, 0% 93%);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 592px;
+}
+
+.travel-in-style{
+    margin-top: -8rem;
+}
+}
+
+
+@media screen and (min-width: 478px) {
+/*.hero-image-text-and-button {
+    margin-top: 15rem;
+}*/
+
+
+.hero-image-text-and-button{
+    margin-top: 18rem;
+}
+
+
+@media screen and (min-width: 540px) {
+.hero-image-text-and-button {
+    margin-top: 20rem;
+}
+
+
+.hero-image {
+    position: relative;
+    background-image: url("../img/backGround.jpg");
+    -webkit-clip-path: polygon(0 23%, 100% 5%, 100% 85%, 0% 100%);
+    clip-path: polygon(0 0%, 100% 0%, 100% 79%, 0% 93%);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 516px;
+}
+
+.travel-in-style{
+    margin-top: -4rem;
+}
+
+
+}
+
+
+@media screen and (min-width: 575px) {
+.hero-image-text-and-button {
+    margin-top: 21rem;
+}
+
+.travel-in-style{
+    margin-top: -4rem;
+}
+
+.hero-image {
+    position: relative;
+    background-image: url("../img/backGround.jpg");
+    -webkit-clip-path: polygon(0 23%, 100% 5%, 100% 85%, 0% 100%);
+    clip-path: polygon(0 0%, 100% 0%, 100% 79%, 0% 93%);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 590px;
+}
+
+.travel-in-style{
+    margin-top: -4rem;
+}
+
+}
+
+
+
+@media screen and (min-width: 600px) {
+.hero-image-text-and-button {
+    margin-top: 25rem;
+}
+
+.travel-in-style{
+    margin-top: -4rem;
+}
+
+.hero-image {
+    position: relative;
+    background-image: url("../img/backGround.jpg");
+    -webkit-clip-path: polygon(0 23%, 100% 5%, 100% 85%, 0% 100%);
+    clip-path: polygon(0 0%, 100% 0%, 100% 79%, 0% 93%);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 662px;
+}
+
+.travel-in-style{
+    margin-top: -4rem;
+}
+
+}
+
+
+
+@media screen and (min-width: 720px) {
+.hero-image-text-and-button {
+    margin-top: 13rem;
+    width: 23rem;
+    margin-left: -5rem;
+}
+
+.travel-in-style{
+    margin-top: -8rem;
+}
+
+.mainTitle {
+    font-size: 33px;
+    line-height: 3rem;
+    height: 100%;
+}
+
+.hero-image {
+    position: relative;
+    background-image: url("../img/backGround.jpg");
+    -webkit-clip-path: polygon(0 23%, 100% 5%, 100% 85%, 0% 100%);
+    clip-path: polygon(0 0%, 100% 0%, 100% 79%, 0% 93%);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 710px;
+}
+}
+
+@media screen and (min-width: 767px) {
+.hero-image-text-and-button {
+    margin-top: 12rem;
+    margin-left: -1rem;
+}
+
+.bluebox-and-carimg .card {
+width: 12rem;
+}
+
+.bgimg-and-text {
+    height: 578px;
+}
+
+.travel-in-style{
+    margin-top: -4rem;
+}
+
+.car1 {
+  height: 270px;
+    width: 100%;
+    margin-left: 0rem; 
+}
+
+.car2 {
+     height: 270px;
+    width: 100%;
+    margin-left: 0rem;
+}
+
+}
+
+@media screen and (min-width: 991px) {
+.hero-image-text-and-button {
+    margin-top: 14rem;
+    margin-left: -1rem;
+}
+
+.travel-in-style{
+    margin-top: 0rem;
+}
+
+.mainTitle {
+    font-size: 40px;
+    line-height: 4rem;
+    height: 100%;
+}
+
+.bgimg-and-text {
+    height: 578px;
+}
+}
+
+
+@media screen and (min-width: 1199px) {
+.hero-image-text-and-button{
+    margin-top: 15rem;
+}
+
+.hero-image {
+    position: relative;
+    background-image: url("../img/backGround.jpg");
+    -webkit-clip-path: polygon(0 23%, 100% 5%, 100% 85%, 0% 100%);
+    clip-path: polygon(0 0%, 100% 0%, 100% 79%, 0% 93%);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 565px;
+}
+
+.travel-in-style{
+    margin-top: -8rem;
+}
+}
+
+
+
+@media screen and (min-width: 1200px) {
+.hero-image-text-and-button {
+    margin-top: 17rem;
+    /*/*margin-left: -8rem;*/
+}
+
+.travel-in-style{
+    margin-top: 10rem;
+}
+}
+
+
+
 
 
 /*Simon css below*/
@@ -377,3 +702,9 @@ h1.contactlist.first{
 }
 
 **/
+
+
+
+
+
+
