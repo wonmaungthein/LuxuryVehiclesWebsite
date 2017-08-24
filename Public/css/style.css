@@ -85,7 +85,7 @@
 
 .car1 {
     height: 270px;
-    width: 106%;
+    width: 100%;
     margin-left: 0rem;
 } 
 .hero-image-text-and-button{
@@ -93,7 +93,7 @@
 }
 .car2 {
     height: 270px;
-    width: 106%;
+    width: 100%;
 } 
 
 .bottom-container {
@@ -238,11 +238,11 @@
     background-size: contain;
     background-repeat: no-repeat;
     width: 100%;
-    height: 516px;
+    height: 549px;
 }
 
 .travel-in-style{
-    margin-top: -4rem;
+    margin-top: 0rem;
 }
 
 
@@ -349,7 +349,7 @@ width: 12rem;
 }
 
 .travel-in-style{
-    margin-top: -4rem;
+    margin-top: 0rem;
 }
 
 .car1 {
@@ -401,7 +401,8 @@ width: 12rem;
     background-size: contain;
     background-repeat: no-repeat;
     width: 100%;
-    height: 565px;
+    height: 730px;
+    margin-top: -17
 }
 
 .travel-in-style{
@@ -421,6 +422,33 @@ width: 12rem;
     margin-top: 10rem;
 }
 }
+
+
+
+
+@media screen and (min-width: 1275px) {
+.hero-image-text-and-button {
+    margin-top: 17rem;
+    /*/*margin-left: -8rem;*/
+}
+
+.travel-in-style{
+    margin-top: 10rem;
+}
+
+.car1 {
+    width: 50%;
+    height: 100%;
+}
+/*
+.car2 {
+    width: 50%;
+    height: 100%;
+}*/
+}
+
+
+
 
 
 
