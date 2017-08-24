@@ -68,12 +68,11 @@
   color:#99803e;
   margin-left:auto;
   margin-right:auto;
-  /*width: 95%;*/
 }
-
+/*
 .blue {
     background-color:#2F6080;
-}
+}*/
 
 .bg-blue { 
     background-color:#2F6080 !important; 
@@ -86,7 +85,7 @@
 .car1 {
     height: 270px;
     width: 100%;
-    margin-left: 0rem;
+    /*margin-left: 0rem;*/
 } 
 .hero-image-text-and-button{
     margin-top: 12rem;
@@ -126,11 +125,6 @@
 }
 
 @media screen (min-width: 394px) {
-/*.hero-image-text-and-button {
-    margin-top: 15rem;
-}*/
-
-
 .hero-image-text-and-button{
     margin-top: 15rem;
 }
@@ -153,10 +147,6 @@
 
 
 @media screen and (min-width: 425px) {
-/*.hero-image-text-and-button {
-    margin-top: 15rem;
-}*/
-
 
 .hero-image-text-and-button{
     margin-top: 16rem;
@@ -187,11 +177,6 @@
 
 
 @media screen and (min-width: 464px) {
-/*.hero-image-text-and-button {
-    margin-top: 15rem;
-}*/
-
-
 .hero-image-text-and-button{
     margin-top: 17rem;
 }
@@ -214,15 +199,9 @@
 
 
 @media screen and (min-width: 478px) {
-/*.hero-image-text-and-button {
-    margin-top: 15rem;
-}*/
-
-
 .hero-image-text-and-button{
     margin-top: 18rem;
 }
-
 
 @media screen and (min-width: 540px) {
 .hero-image-text-and-button {
@@ -275,8 +254,6 @@
 
 }
 
-
-
 @media screen and (min-width: 600px) {
 .hero-image-text-and-button {
     margin-top: 25rem;
@@ -300,20 +277,17 @@
 .travel-in-style{
     margin-top: -4rem;
 }
-
 }
-
-
 
 @media screen and (min-width: 720px) {
 .hero-image-text-and-button {
     margin-top: 13rem;
     width: 23rem;
-    margin-left: -5rem;
+    margin-left: 0rem;
 }
 
 .travel-in-style{
-    margin-top: -8rem;
+    margin-top: -15rem;
 }
 
 .mainTitle {
@@ -337,7 +311,7 @@
 @media screen and (min-width: 767px) {
 .hero-image-text-and-button {
     margin-top: 12rem;
-    margin-left: -1rem;
+    margin-left: 0rem;
 }
 
 .bluebox-and-carimg .card {
@@ -349,7 +323,7 @@ width: 12rem;
 }
 
 .travel-in-style{
-    margin-top: 0rem;
+    margin-top: -4rem;
 }
 
 .car1 {
@@ -369,7 +343,7 @@ width: 12rem;
 @media screen and (min-width: 991px) {
 .hero-image-text-and-button {
     margin-top: 14rem;
-    margin-left: -1rem;
+    margin-left: 0rem;
 }
 
 .travel-in-style{
@@ -386,7 +360,6 @@ width: 12rem;
     height: 578px;
 }
 }
-
 
 @media screen and (min-width: 1199px) {
 .hero-image-text-and-button{
@@ -423,9 +396,6 @@ width: 12rem;
 }
 }
 
-
-
-
 @media screen and (min-width: 1275px) {
 .hero-image-text-and-button {
     margin-top: 17rem;
@@ -440,11 +410,6 @@ width: 12rem;
     width: 50%;
     height: 100%;
 }
-/*
-.car2 {
-    width: 50%;
-    height: 100%;
-}*/
 }
 
 
@@ -457,9 +422,9 @@ width: 12rem;
 /*Simon css below*/
 
 /* Tour With Us */
-.tourWithUs {
+/*.tourWithUs {
     color: white;
-}
+}*/
 
 .tourWithUs {
     margin-top: 4rem;
@@ -486,12 +451,12 @@ width: 12rem;
     height: auto;
     margin: auto;
     padding: 20px 10px 20px 10px;
-    color: white;
+    /*color: white;*/
 }
 
 .card-deck-tourWithUs .card-text {
     padding: 20px;
-    color: white;
+    /*color: white;*/
 }
 
 .card-deck-tourWithUs .btn {
@@ -500,11 +465,6 @@ width: 12rem;
     background-color: transparent;
     border: 1px solid;
 }
-
-/* News And Events */
-/*.whatPeople {
-    color: white;
-}*/
 
 .take-a-tour-with-us-session{
     background-color: #6E7788;
@@ -522,12 +482,6 @@ width: 12rem;
 }
 .news-events img {
     width: 100%;
-}
-
-/* Horizontal Rules */
-.goldhr {
-    color: gold;
-    margin: 50px 0 50px 0;
 }
 
 /*simon css ends here*/
