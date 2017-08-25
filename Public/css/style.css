@@ -11,13 +11,13 @@
     width: 4rem;
     height: 4rem;
     }
-/*
+
 .bordercolor {
         border: 1px solid yellow;
 }
 .bordercolorblue {
         border: 2px solid blue;
-}*/
+}
 
 .black {
         background-color: black;
@@ -637,7 +637,7 @@ h1.contactlist.first{
 #footer{
     width: 80%;
     margin: auto;
-    margin-top: 100px;
+    margin-top: 130px;
     display:flex;
 }
 
