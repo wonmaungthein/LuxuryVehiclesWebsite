@@ -19,6 +19,7 @@
   "dependencies": {
     "bootstrap": "^4.0.0-beta",
     "express": "^4.15.3",
+    "express-formidable": "^1.0.0",
     "express-handlebars": "^3.0.0"
   }
 }

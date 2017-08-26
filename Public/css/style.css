@@ -5,12 +5,29 @@
 
 .for-whole-body{ 
     background-color:#222b2f;
+    padding-bottom: 6rem;
+    padding-top: 6rem;
 }
 
+.for-whole-body .black {}
 .logo {
     width: 4rem;
     height: 4rem;
     }
+
+.background-section.what-people-saying {
+    background-color: #333341;
+    margin-top: -7rem;
+}
+
+.background-section.what-people-saying.footerpart {
+        padding-top: 9rem;
+
+}
+.background-section {
+    padding-bottom: 5rem;
+    padding-top: 5rem;
+}
 
 .bordercolor {
         border: 1px solid yellow;
@@ -459,6 +476,9 @@ width: 12rem;
     /*color: white;*/
 }
 
+.bg-black {
+    background-color: #333341;
+}
 .card-deck-tourWithUs .btn {
     padding: 15px 30px 15px 30px;
     color: white;
@@ -488,7 +508,7 @@ width: 12rem;
 
 /*Khaled css below*/
 #what{
-    background: #333333;
+    background: #333341;
     color:white;
     font-family: 'lora',serif;
     margin-top: 4rem;
@@ -605,8 +625,10 @@ background-image: url('http://freebigpictures.com/wp-content/uploads/sunset-fore
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
-        max-width: 'initial'
-        
+        max-width: 'initial';
+        padding-bottom: 8rem;
+        padding-top: 3rem;
+        margin-top: -9rem;
 }
 
 .contactlist{
@@ -633,6 +655,9 @@ h1.contactlist.first{
   margin-right:25px;;
   margin-top:50px;
 
+}
+.norotate {
+    padding-bottom: 30px;
 }
 #footer{
     width: 80%;
@@ -664,6 +689,10 @@ h1.contactlist.first{
 .footeradjust{
     font-size:18px;
     font-family: "lato";
+}
+
+#tour {
+    margin-bottom: 30px;
 }
 /**
 @media screen and (max-width: 767px) {
