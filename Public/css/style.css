@@ -3,38 +3,54 @@
     background-color: #333333;
 }*/
 
-.for-whole-body{ 
+.background-section.top-page{ 
     background-color:#222b2f;
-    padding-bottom: 6rem;
-    padding-top: 6rem;
+    padding-bottom: 12rem;
+    padding-top: 0rem;
 }
 
-.for-whole-body .black {}
+.background-section.what-people-saying {
+    background-color: #333341;
+    /*margin-top: -7rem;*/
+    margin-top: -5rem;
+    padding-bottom: 10rem;
+    clip-path: polygon(0% 5%, 100% 0%, 100% 100%, 0% 100%);
+
+}
+
+.background-section.what-people-saying.footerpart {
+    padding-top: 5rem;
+    margin-top: -7rem;
+}
+
+.background-section.take-a-tour-with-us-session {
+    margin-top: -8rem;
+    padding-bottom: 10rem;
+    clip-path: polygon(0% 2%, 100% 0%, 100% 100%, 0% 100%);
+
+}
+
+.background-section.news-and-events-session {
+    margin-top: -8rem;
+    padding-bottom: 10rem;
+    clip-path: polygon(0% 2%, 100% 0%, 100% 100%, 0% 100%);
+}
+.background-section {
+    padding-bottom: 8rem;
+    padding-top: 5rem;
+}
+
 .logo {
     width: 4rem;
     height: 4rem;
     }
-
-.background-section.what-people-saying {
-    background-color: #333341;
-    margin-top: -7rem;
-}
-
-.background-section.what-people-saying.footerpart {
-        padding-top: 9rem;
-
-}
-.background-section {
-    padding-bottom: 5rem;
-    padding-top: 5rem;
-}
-
+/*
 .bordercolor {
         border: 1px solid yellow;
 }
 .bordercolorblue {
         border: 2px solid blue;
-}
+}*/
 
 .black {
         background-color: black;
@@ -60,8 +76,13 @@
     background-size: contain;
     background-repeat: no-repeat;
     width: 100%;
-    height: 444px;
+    height: 512px;
+    /*background-position: center;*/
 }
+
+
+
+
 
 .mainTitle {
     font-size: 31px;
@@ -90,27 +111,49 @@
 .blue {
     background-color:#2F6080;
 }*/
-
+/*
+.card-body {
+    width: 16rem;
+}*/
+.card {
+    border: none !important;
+}
+.card.bg-blue {
+    width: 100%;
+}
 .bg-blue { 
-    background-color:#2F6080 !important; 
-    width: 62%}
+    background-color:#2F6080 !important;} 
+    /*width: 62%}*/
 
 .bg-yellow { 
-    background-color:#99803e !important; 
-    width: 62%}
+    background-color:#99803e !important; }
+    /*width: 62%}*/
 
+.bg-grey {
+    background-color: #333333 !important;
+}
 .car1 {
-    height: 270px;
+    height: 207px;
     width: 100%;
     /*margin-left: 0rem;*/
 } 
+
+.car2 {
+    height: 207px;
+    width: 100%;
+} 
+.top-container{
+    margin-bottom: 2rem;
+    margin-top: 3rem;
+}
+.top-container.events-coming-up{
+    margin-bottom: 3rem;
+    margin-top: 0rem;
+}
+
 .hero-image-text-and-button{
     margin-top: 12rem;
 }
-.car2 {
-    height: 270px;
-    width: 100%;
-} 
 
 .bottom-container {
     margin-top: 2rem;
@@ -121,313 +164,6 @@
     margin-top: 1rem;
 }
 
-
-@media screen and (min-width: 370px) {
-
-.hero-image-text-and-button{
-    margin-top: 15rem;
-}
-
-.hero-image {
-    position: relative;
-    background-image: url("../img/backGround.jpg");
-    -webkit-clip-path: polygon(0 23%, 100% 5%, 100% 85%, 0% 100%);
-    clip-path: polygon(0 0%, 100% 0%, 100% 79%, 0% 93%);
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 489px;
-}
-
-}
-
-@media screen (min-width: 394px) {
-.hero-image-text-and-button{
-    margin-top: 15rem;
-}
-
-.hero-image {
-    position: relative;
-    background-image: url("../img/backGround.jpg");
-    -webkit-clip-path: polygon(0 23%, 100% 5%, 100% 85%, 0% 100%);
-    clip-path: polygon(0 0%, 100% 0%, 100% 79%, 0% 93%);
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 565px;
-}
-
-.travel-in-style{
-    margin-top: -8rem;
-}
-}
-
-
-@media screen and (min-width: 425px) {
-
-.hero-image-text-and-button{
-    margin-top: 16rem;
-}
-
-.hero-image {
-    position: relative;
-    background-image: url("../img/backGround.jpg");
-    -webkit-clip-path: polygon(0 23%, 100% 5%, 100% 85%, 0% 100%);
-    clip-path: polygon(0 0%, 100% 0%, 100% 79%, 0% 93%);
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 565px;
-}
-
-.travel-in-style{
-    margin-top: -8rem;
-}
-}
-
-
-@media screen and (min-width: 452px) {
-.hero-image-text-and-button {
-    margin-top: 16rem;
-}
-}
-
-
-@media screen and (min-width: 464px) {
-.hero-image-text-and-button{
-    margin-top: 17rem;
-}
-
-.hero-image {
-    position: relative;
-    background-image: url("../img/backGround.jpg");
-    -webkit-clip-path: polygon(0 23%, 100% 5%, 100% 85%, 0% 100%);
-    clip-path: polygon(0 0%, 100% 0%, 100% 79%, 0% 93%);
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 592px;
-}
-
-.travel-in-style{
-    margin-top: -8rem;
-}
-}
-
-
-@media screen and (min-width: 478px) {
-.hero-image-text-and-button{
-    margin-top: 18rem;
-}
-
-@media screen and (min-width: 540px) {
-.hero-image-text-and-button {
-    margin-top: 20rem;
-}
-
-
-.hero-image {
-    position: relative;
-    background-image: url("../img/backGround.jpg");
-    -webkit-clip-path: polygon(0 23%, 100% 5%, 100% 85%, 0% 100%);
-    clip-path: polygon(0 0%, 100% 0%, 100% 79%, 0% 93%);
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 549px;
-}
-
-.travel-in-style{
-    margin-top: 0rem;
-}
-
-
-}
-
-
-@media screen and (min-width: 575px) {
-.hero-image-text-and-button {
-    margin-top: 21rem;
-}
-
-.travel-in-style{
-    margin-top: -4rem;
-}
-
-.hero-image {
-    position: relative;
-    background-image: url("../img/backGround.jpg");
-    -webkit-clip-path: polygon(0 23%, 100% 5%, 100% 85%, 0% 100%);
-    clip-path: polygon(0 0%, 100% 0%, 100% 79%, 0% 93%);
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 590px;
-}
-
-.travel-in-style{
-    margin-top: -4rem;
-}
-
-}
-
-@media screen and (min-width: 600px) {
-.hero-image-text-and-button {
-    margin-top: 25rem;
-}
-
-.travel-in-style{
-    margin-top: -4rem;
-}
-
-.hero-image {
-    position: relative;
-    background-image: url("../img/backGround.jpg");
-    -webkit-clip-path: polygon(0 23%, 100% 5%, 100% 85%, 0% 100%);
-    clip-path: polygon(0 0%, 100% 0%, 100% 79%, 0% 93%);
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 662px;
-}
-
-.travel-in-style{
-    margin-top: -4rem;
-}
-}
-
-@media screen and (min-width: 720px) {
-.hero-image-text-and-button {
-    margin-top: 13rem;
-    width: 23rem;
-    margin-left: 0rem;
-}
-
-.travel-in-style{
-    margin-top: -15rem;
-}
-
-.mainTitle {
-    font-size: 33px;
-    line-height: 3rem;
-    height: 100%;
-}
-
-.hero-image {
-    position: relative;
-    background-image: url("../img/backGround.jpg");
-    -webkit-clip-path: polygon(0 23%, 100% 5%, 100% 85%, 0% 100%);
-    clip-path: polygon(0 0%, 100% 0%, 100% 79%, 0% 93%);
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 710px;
-}
-}
-
-@media screen and (min-width: 767px) {
-.hero-image-text-and-button {
-    margin-top: 12rem;
-    margin-left: 0rem;
-}
-
-.bluebox-and-carimg .card {
-width: 12rem;
-}
-
-.bgimg-and-text {
-    height: 578px;
-}
-
-.travel-in-style{
-    margin-top: -4rem;
-}
-
-.car1 {
-  height: 270px;
-    width: 100%;
-    margin-left: 0rem; 
-}
-
-.car2 {
-     height: 270px;
-    width: 100%;
-    margin-left: 0rem;
-}
-
-}
-
-@media screen and (min-width: 991px) {
-.hero-image-text-and-button {
-    margin-top: 14rem;
-    margin-left: 0rem;
-}
-
-.travel-in-style{
-    margin-top: 0rem;
-}
-
-.mainTitle {
-    font-size: 40px;
-    line-height: 4rem;
-    height: 100%;
-}
-
-.bgimg-and-text {
-    height: 578px;
-}
-}
-
-@media screen and (min-width: 1199px) {
-.hero-image-text-and-button{
-    margin-top: 15rem;
-}
-
-.hero-image {
-    position: relative;
-    background-image: url("../img/backGround.jpg");
-    -webkit-clip-path: polygon(0 23%, 100% 5%, 100% 85%, 0% 100%);
-    clip-path: polygon(0 0%, 100% 0%, 100% 79%, 0% 93%);
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 730px;
-    margin-top: -17
-}
-
-.travel-in-style{
-    margin-top: -8rem;
-}
-}
-
-
-
-@media screen and (min-width: 1200px) {
-.hero-image-text-and-button {
-    margin-top: 17rem;
-    /*/*margin-left: -8rem;*/
-}
-
-.travel-in-style{
-    margin-top: 10rem;
-}
-}
-
-@media screen and (min-width: 1275px) {
-.hero-image-text-and-button {
-    margin-top: 17rem;
-    /*/*margin-left: -8rem;*/
-}
-
-.travel-in-style{
-    margin-top: 10rem;
-}
-
-.car1 {
-    width: 50%;
-    height: 100%;
-}
-}
 
 
 
@@ -443,6 +179,9 @@ width: 12rem;
     color: white;
 }*/
 
+.card-deck {
+    margin-top: 3rem;
+}
 .tourWithUs {
     margin-top: 4rem;
 }
@@ -491,7 +230,10 @@ width: 12rem;
 }
 .news-and-events {
     margin-top: 4rem;
+    margin-bottom: 3rem;
 }
+
+
 
 
 .news-events {
@@ -613,7 +355,7 @@ p{
 
 #contactus{
 -webkit-clip-path: polygon(0 23%, 100% 5%, 100% 85%, 0% 100%);
-clip-path: polygon(0 23%, 100% 5%, 100% 85%, 0% 100%);
+clip-path: polygon(0 17%, 100% 5%, 100% 85%, 0% 100%);
 overflow: hidden;
 display: block;
   position:relative;
@@ -653,7 +395,7 @@ h1.contactlist.first{
   color:#99803e;
   margin-left:auto;
   margin-right:25px;;
-  margin-top:50px;
+  margin-top:16px;
 
 }
 .norotate {
@@ -717,5 +459,133 @@ h1.contactlist.first{
 
 
 
+.greybox-and-img {
+    margin-bottom: 3rem;
+}
+@media screen and (min-width: 576px) {
+
+.hero-image-text-and-button {
+    margin-top: 10rem;
+}
+
+.hero-image {
+    position: relative;
+    background-image: url("../img/backGround.jpg");
+    -webkit-clip-path: polygon(0 23%, 100% 5%, 100% 85%, 0% 100%);
+    clip-path: polygon(0 0%, 100% 0%, 100% 79%, 0% 93%);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 435px;
+}
+
+.hero-image-container {
+
+display: flex;
+justify-content: center;
+}
+
+}
 
 
+@media screen and (min-width: 768px) {
+
+.hero-image-text-and-button {
+    margin-top: 10rem;
+}
+
+.hero-image {
+    position: relative;
+    background-image: url("../img/backGround.jpg");
+    -webkit-clip-path: polygon(0 23%, 100% 5%, 100% 85%, 0% 100%);
+    clip-path: polygon(0 0%, 100% 0%, 100% 79%, 0% 93%);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 435px;
+}
+
+.hero-image-container {
+
+display: flex;
+justify-content: center;
+}
+.travel-in-style {
+    margin-top: 0rem;
+}
+.car1 {
+    height: 100%;
+}
+.car2{
+    height: 100%;
+}
+}
+
+
+@media screen and (min-width: 992px) {
+
+.hero-image-text-and-button {
+    margin-top: 13rem;
+}
+
+.hero-image {
+    position: relative;
+    background-image: url("../img/backGround.jpg");
+    -webkit-clip-path: polygon(0 23%, 100% 5%, 100% 85%, 0% 100%);
+    clip-path: polygon(0 0%, 100% 0%, 100% 79%, 0% 93%);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 557px;
+}
+
+.hero-image-container {
+
+display: flex;
+justify-content: center;
+}
+.travel-in-style {
+    margin-top: 0rem;
+}
+.car1 {
+    height: 100%;
+}
+.car2{
+    height: 100%;
+}
+}
+
+
+
+@media screen and (min-width: 1200px) {
+
+.hero-image-text-and-button {
+    margin-top: 16rem;
+}
+
+.hero-image {
+    position: relative;
+    background-image: url("../img/backGround.jpg");
+    -webkit-clip-path: polygon(0 23%, 100% 5%, 100% 85%, 0% 100%);
+    clip-path: polygon(0 0%, 100% 0%, 100% 79%, 0% 93%);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 707px;
+}
+
+.hero-image-container {
+
+display: flex;
+justify-content: center;
+}
+.travel-in-style {
+    margin-top: 0rem;
+}
+.car1 {
+    height: 100%;
+}
+.car2{
+    height: 100%;
+}
+}
