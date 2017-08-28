@@ -1,8 +1,4 @@
 
-/*body {
-    background-color: #333333;
-}*/
-
 .background-section {
     padding-bottom: 8rem;
     padding-top: 5rem;
@@ -42,17 +38,32 @@
 .logo {
     width: 4rem;
     height: 4rem;
-    }
-/*
-.bordercolor {
-        border: 1px solid yellow;
 }
-.bordercolorblue {
-        border: 2px solid blue;
-}*/
 
 .black {
-        background-color: black;
+    background-color: black;
+}
+
+.yellowish {
+    background-color: #99803e;
+}
+
+.bg-blue { 
+    background-color:#2F6080 !important;} 
+
+.bg-yellow { 
+    background-color:#99803e !important; }
+
+.bg-grey {
+    background-color: #333333 !important;
+}
+
+.bg-black {
+    background-color: #333341;
+}
+
+.take-a-tour-with-us-session{
+    background-color: #6E7788;
 }
 
 .white {
@@ -63,56 +74,22 @@
     font-family: 'lora',serif;
 }
 
-.yellowish {
-    background-color: #99803e;
-}
-/*
-.hero-image {
-    position: relative;
-    background-image: url("../img/backGround.jpg");
-    -webkit-clip-path: polygon(0 23%, 100% 5%, 100% 85%, 0% 100%);
-    clip-path: polygon(0 0%, 100% 0%, 100% 79%, 0% 93%);
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 512px;
-}*/
-
-
 .hero-image { 
--webkit-clip-path: polygon(0 23%, 100% 5%, 100% 85%, 0% 100%);
-clip-path: polygon(0 0%, 100% 0%, 100% 88%, 0% 100%);
-overflow: hidden;
-display: block;
-position:relative;
-z-index: 2;
+    -webkit-clip-path: polygon(0 23%, 100% 5%, 100% 85%, 0% 100%);
+    clip-path: polygon(0 0%, 100% 0%, 100% 88%, 0% 100%);
+    overflow: hidden;
+    display: block;
+    position:relative;
+    z-index: 2;
     background-image: url("../img/backGround.jpg");
     background-repeat:no-repeat;
     background-position:center center;
     -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        max-width: 'initial';
-        padding-bottom: 0rem;
-        padding-top: 0rem;
-        margin-top: 0rem;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    max-width: 'initial';
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .mainTitle {
     font-size: 31px;
@@ -137,44 +114,28 @@ z-index: 2;
   margin-left:auto;
   margin-right:auto;
 }
-/*
-.blue {
-    background-color:#2F6080;
-}*/
-/*
-.card-body {
-    width: 16rem;
-}*/
+
 .card {
     border: none !important;
+    
 }
 .card.bg-blue {
     width: 100%;
-}
-.bg-blue { 
-    background-color:#2F6080 !important;} 
-    /*width: 62%}*/
-
-.bg-yellow { 
-    background-color:#99803e !important; }
-    /*width: 62%}*/
-
-.bg-grey {
-    background-color: #333333 !important;
+    height: 100%;
 }
 
-.bg-black {
-    background-color: #333341;
+.card.bg-yellow {
+    width: 100%;
+    height: 100%;
 }
 
 .car1 {
-    height: 207px;
+    height: 100%;
     width: 100%;
-    /*margin-left: 0rem;*/
 } 
 
 .car2 {
-    height: 207px;
+    height: 100%;
     width: 100%;
 } 
 .top-container{
@@ -202,11 +163,6 @@ z-index: 2;
 
 
 /*Simon css below*/
-
-/* Tour With Us */
-/*.tourWithUs {
-    color: white;
-}*/
 
 .card-deck {
     margin-top: 3rem;
@@ -236,12 +192,10 @@ z-index: 2;
     height: auto;
     margin: auto;
     padding: 20px 10px 20px 10px;
-    /*color: white;*/
 }
 
 .card-deck-tourWithUs .card-text {
     padding: 20px;
-    /*color: white;*/
 }
 
 .card-deck-tourWithUs .btn {
@@ -251,9 +205,6 @@ z-index: 2;
     border: 1px solid;
 }
 
-.take-a-tour-with-us-session{
-    background-color: #6E7788;
-}
 .news-and-events {
     margin-top: 4rem;
     margin-bottom: 3rem;
@@ -330,7 +281,7 @@ z-index: 2;
 
 .card-text {
     font-size: 17px;
-    }
+}
 
 p{
     color: white;
@@ -377,27 +328,27 @@ p{
 }
 
 #contactus{
--webkit-clip-path: polygon(0 23%, 100% 5%, 100% 85%, 0% 100%);
-clip-path: polygon(0 17%, 100% 5%, 100% 85%, 0% 100%);
-overflow: hidden;
-display: block;
-  position:relative;
-z-index: 2;
-background-image: url('http://freebigpictures.com/wp-content/uploads/sunset-forest.jpg');
+    -webkit-clip-path: polygon(0 23%, 100% 5%, 100% 85%, 0% 100%);
+    clip-path: polygon(0 17%, 100% 5%, 100% 85%, 0% 100%);
+    overflow: hidden;
+    display: block;
+    position:relative;
+    z-index: 2;
+    background-image: url('http://freebigpictures.com/wp-content/uploads/sunset-forest.jpg');
     background-repeat:no-repeat;
     background-position:center center;
     -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        max-width: 'initial';
-        padding-bottom: 8rem;
-        padding-top: 3rem;
-        margin-top: -9rem;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    max-width: 'initial';
+    padding-bottom: 8rem;
+    padding-top: 3rem;
+    margin-top: -9rem;
 }
 
 .contactlist{
-     color:white;
+    color:white;
     font-family: 'lora',serif;
     padding-top: 20px;
 }
@@ -406,28 +357,25 @@ h1.contactlist.first{
     margin-top: 100px;
 }
 .downhr{
-      -moz-border-bottom-colors: none;
-  -moz-border-image: none;
-  -moz-border-left-colors: none;
-  -moz-border-right-colors: none;
-  -moz-border-top-colors: none;
-  border-color: #EEEEEE -moz-use-text-color #FFFFFF;
-  border-style: solid none;
-  border-width: 3px 0;
-  margin: 18px 0;
-  color:#99803e;
-  margin-left:auto;
-  margin-right:25px;;
-  margin-top:16px;
-
+    -moz-border-bottom-colors: none;
+    -moz-border-image: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #EEEEEE -moz-use-text-color #FFFFFF;
+    border-style: solid none;
+    border-width: 3px 0;
+    margin: 18px 0;
+    color:#99803e;
+    margin-left:auto;
+    margin-right:25px;;
+    margin-top:16px;
 }
 
 .norotate1 {
     padding-bottom: 5px;
     margin-top: 18rem;
     margin-bottom: -12rem;
-    /*color: transparent;*/
-    /*display: hide;*/
 }
 
 .norotate2 {
@@ -442,7 +390,7 @@ h1.contactlist.first{
 }
 
 #rights{
-        width: 80%;
+    width: 80%;
     margin: auto;
     display:flex;
 }
@@ -469,51 +417,26 @@ h1.contactlist.first{
 #tour {
     margin-bottom: 30px;
 }
-/**
-@media screen and (max-width: 767px) {
-.quote1 {
-    color: #99803e;
-    font-size: 26px;
-    font-family: 'lora',serif;
-    box-sizing: border-box;
-    margin-bottom: 20px;
-}
-.quote2 {
-    color: #99803e;
-    font-size: 26px;
-    font-family: 'lora',serif;
-    margin-top: 20px;
-    box-sizing: border-box;    
-}
-}
-
-**/
 
 .greybox-and-img {
     margin-bottom: 3rem;
 }
 
-
 @media screen and (min-width:576px) {
-
 .norotate1 {
     padding-bottom: 100px;
     margin-top: 17rem;
     margin-bottom: 0rem;
-    /*color: transparent;*/
-    /*display: hide;*/
 }
 
 .norotate2 {
-    margin-bottom: 7rem;
+    /*margin-bottom: 7rem;*/
     display: none;
 }
 .travel-in-style {
     margin-top: 3rem;
 }
-
 }
-
 
 @media screen and (min-width:768px) {
 
@@ -521,12 +444,10 @@ h1.contactlist.first{
     padding-bottom: 100px;
     margin-top: 14rem;
     margin-bottom: 5rem;
-    /*color: transparent;*/
-    /*display: hide;*/
 }
 
 .norotate2 {
-    margin-bottom: 7rem;
+    /*margin-bottom: 7rem;*/
     display: none;
 }
 .travel-in-style {
@@ -541,144 +462,13 @@ h1.contactlist.first{
     margin-top: 18rem;
     margin-bottom: 8rem;
     margin-left: 4rem;
-    /*color: transparent;*/
-    /*display: hide;*/
 }
 
 .norotate2 {
-    margin-bottom: 7rem;
+    /*margin-bottom: 7rem;*/
     display: none;
 }
 .travel-in-style {
     margin-top: 3rem;
 }
 }
-
-/*
-@media screen and (min-width: 576px) {
-
-.hero-image-text-and-button {
-    margin-top: 10rem;
-}
-
-.hero-image {
-    position: relative;
-    background-image: url("../img/backGround.jpg");
-    -webkit-clip-path: polygon(0 23%, 100% 5%, 100% 85%, 0% 100%);
-    clip-path: polygon(0 0%, 100% 0%, 100% 79%, 0% 93%);
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 435px;
-}
-
-.hero-image-container {
-
-display: flex;
-justify-content: center;
-}
-
-}
-
-
-@media screen and (min-width: 768px) {
-
-.hero-image-text-and-button {
-    margin-top: 10rem;
-}
-
-.hero-image {
-    position: relative;
-    background-image: url("../img/backGround.jpg");
-    -webkit-clip-path: polygon(0 23%, 100% 5%, 100% 85%, 0% 100%);
-    clip-path: polygon(0 0%, 100% 0%, 100% 79%, 0% 93%);
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 435px;
-}
-
-.hero-image-container {
-
-display: flex;
-justify-content: center;
-}
-.travel-in-style {
-    margin-top: 0rem;
-}
-.car1 {
-    height: 100%;
-}
-.car2{
-    height: 100%;
-}
-}
-
-
-@media screen and (min-width: 992px) {
-
-.hero-image-text-and-button {
-    margin-top: 13rem;
-}
-
-.hero-image {
-    position: relative;
-    background-image: url("../img/backGround.jpg");
-    -webkit-clip-path: polygon(0 23%, 100% 5%, 100% 85%, 0% 100%);
-    clip-path: polygon(0 0%, 100% 0%, 100% 79%, 0% 93%);
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 557px;
-}
-
-.hero-image-container {
-
-display: flex;
-justify-content: center;
-}
-.travel-in-style {
-    margin-top: 0rem;
-}
-.car1 {
-    height: 100%;
-}
-.car2{
-    height: 100%;
-}
-}
-
-
-
-@media screen and (min-width: 1200px) {
-
-.hero-image-text-and-button {
-    margin-top: 16rem;
-}
-
-.hero-image {
-    position: relative;
-    background-image: url("../img/backGround.jpg");
-    -webkit-clip-path: polygon(0 23%, 100% 5%, 100% 85%, 0% 100%);
-    clip-path: polygon(0 0%, 100% 0%, 100% 79%, 0% 93%);
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 707px;
-}
-
-.hero-image-container {
-
-display: flex;
-justify-content: center;
-}
-.travel-in-style {
-    margin-top: 0rem;
-}
-.car1 {
-    height: 100%;
-}
-.car2{
-    height: 100%;
-}
-}*/
