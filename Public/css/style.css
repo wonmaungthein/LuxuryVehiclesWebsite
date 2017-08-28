@@ -3,6 +3,11 @@
     background-color: #333333;
 }*/
 
+.background-section {
+    padding-bottom: 8rem;
+    padding-top: 5rem;
+}
+
 .background-section.top-page{ 
     background-color:#222b2f;
     padding-bottom: 12rem;
@@ -15,7 +20,12 @@
     margin-top: -5rem;
     padding-bottom: 10rem;
     clip-path: polygon(0% 5%, 100% 0%, 100% 100%, 0% 100%);
+}
 
+.background-section.take-a-tour-with-us-session {
+    margin-top: -8rem;
+    padding-bottom: 10rem;
+    clip-path: polygon(0% 2%, 100% 0%, 100% 100%, 0% 100%);
 }
 
 .background-section.what-people-saying.footerpart {
@@ -23,21 +33,10 @@
     margin-top: -7rem;
 }
 
-.background-section.take-a-tour-with-us-session {
-    margin-top: -8rem;
-    padding-bottom: 10rem;
-    clip-path: polygon(0% 2%, 100% 0%, 100% 100%, 0% 100%);
-
-}
-
 .background-section.news-and-events-session {
     margin-top: -8rem;
     padding-bottom: 10rem;
     clip-path: polygon(0% 2%, 100% 0%, 100% 100%, 0% 100%);
-}
-.background-section {
-    padding-bottom: 8rem;
-    padding-top: 5rem;
 }
 
 .logo {
@@ -67,18 +66,49 @@
 .yellowish {
     background-color: #99803e;
 }
-
+/*
 .hero-image {
     position: relative;
     background-image: url("../img/backGround.jpg");
     -webkit-clip-path: polygon(0 23%, 100% 5%, 100% 85%, 0% 100%);
     clip-path: polygon(0 0%, 100% 0%, 100% 79%, 0% 93%);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
     height: 512px;
-    /*background-position: center;*/
+}*/
+
+
+.hero-image { 
+-webkit-clip-path: polygon(0 23%, 100% 5%, 100% 85%, 0% 100%);
+clip-path: polygon(0 0%, 100% 0%, 100% 88%, 0% 100%);
+overflow: hidden;
+display: block;
+position:relative;
+z-index: 2;
+    background-image: url("../img/backGround.jpg");
+    background-repeat:no-repeat;
+    background-position:center center;
+    -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        max-width: 'initial';
+        padding-bottom: 0rem;
+        padding-top: 0rem;
+        margin-top: 0rem;
 }
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -132,6 +162,11 @@
 .bg-grey {
     background-color: #333333 !important;
 }
+
+.bg-black {
+    background-color: #333341;
+}
+
 .car1 {
     height: 207px;
     width: 100%;
@@ -146,6 +181,11 @@
     margin-bottom: 2rem;
     margin-top: 3rem;
 }
+
+.bottom-container {
+    margin-top: 2rem;
+}
+
 .top-container.events-coming-up{
     margin-bottom: 3rem;
     margin-top: 0rem;
@@ -155,21 +195,10 @@
     margin-top: 12rem;
 }
 
-.bottom-container {
-    margin-top: 2rem;
-}
-
 .three-columns-container .row .sm-paragraph {
     margin-bottom: 1rem;
     margin-top: 1rem;
 }
-
-
-
-
-
-
-
 
 
 /*Simon css below*/
@@ -215,9 +244,6 @@
     /*color: white;*/
 }
 
-.bg-black {
-    background-color: #333341;
-}
 .card-deck-tourWithUs .btn {
     padding: 15px 30px 15px 30px;
     color: white;
@@ -232,9 +258,6 @@
     margin-top: 4rem;
     margin-bottom: 3rem;
 }
-
-
-
 
 .news-events {
     margin-bottom: 50px; 
@@ -398,9 +421,19 @@ h1.contactlist.first{
   margin-top:16px;
 
 }
-.norotate {
-    padding-bottom: 30px;
+
+.norotate1 {
+    padding-bottom: 5px;
+    margin-top: 18rem;
+    margin-bottom: -12rem;
+    /*color: transparent;*/
+    /*display: hide;*/
 }
+
+.norotate2 {
+    margin-bottom: 7rem;
+}
+
 #footer{
     width: 80%;
     margin: auto;
@@ -456,12 +489,72 @@ h1.contactlist.first{
 
 **/
 
-
-
-
 .greybox-and-img {
     margin-bottom: 3rem;
 }
+
+
+@media screen and (min-width:576px) {
+
+.norotate1 {
+    padding-bottom: 100px;
+    margin-top: 17rem;
+    margin-bottom: 0rem;
+    /*color: transparent;*/
+    /*display: hide;*/
+}
+
+.norotate2 {
+    margin-bottom: 7rem;
+    display: none;
+}
+.travel-in-style {
+    margin-top: 3rem;
+}
+
+}
+
+
+@media screen and (min-width:768px) {
+
+.norotate1 {
+    padding-bottom: 100px;
+    margin-top: 14rem;
+    margin-bottom: 5rem;
+    /*color: transparent;*/
+    /*display: hide;*/
+}
+
+.norotate2 {
+    margin-bottom: 7rem;
+    display: none;
+}
+.travel-in-style {
+    margin-top: 3rem;
+}
+}
+
+@media screen and (min-width:992px) {
+
+.norotate1 {
+    padding-bottom: 100px;
+    margin-top: 18rem;
+    margin-bottom: 8rem;
+    margin-left: 4rem;
+    /*color: transparent;*/
+    /*display: hide;*/
+}
+
+.norotate2 {
+    margin-bottom: 7rem;
+    display: none;
+}
+.travel-in-style {
+    margin-top: 3rem;
+}
+}
+
+/*
 @media screen and (min-width: 576px) {
 
 .hero-image-text-and-button {
@@ -568,7 +661,7 @@ justify-content: center;
     background-image: url("../img/backGround.jpg");
     -webkit-clip-path: polygon(0 23%, 100% 5%, 100% 85%, 0% 100%);
     clip-path: polygon(0 0%, 100% 0%, 100% 79%, 0% 93%);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
     height: 707px;
@@ -588,4 +681,4 @@ justify-content: center;
 .car2{
     height: 100%;
 }
-}
+}*/
