@@ -100,17 +100,34 @@
 .travel-in-style{
     margin-top: -4rem;
 }
+
 .greenhr{
   -moz-border-bottom-colors: none;
   -moz-border-image: none;
   -moz-border-left-colors: none;
   -moz-border-right-colors: none;
   -moz-border-top-colors: none;
-  border-color: #EEEEEE -moz-use-text-color #FFFFFF;
+  /*border-color: #EEEEEE -moz-use-text-color #FFFFFF;*/
   border-style: solid none;
   border-width: 3px 0;
   margin: 18px 0;
   color:#99803e;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+
+.blackhr{
+  -moz-border-bottom-colors: none;
+  -moz-border-image: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-top-colors: none;
+  /*border-color: #EEEEEE -moz-use-text-color #FFFFFF;*/
+  border-style: solid none;
+  border-width: 3px 0;
+  margin: 18px 0;
+  color:black;
   margin-left:auto;
   margin-right:auto;
 }
