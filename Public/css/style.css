@@ -1,0 +1,499 @@
+
+.background-section {
+    padding-bottom: 8rem;
+    padding-top: 5rem;
+}
+
+.background-section.top-page{ 
+    background-color:#222b2f;
+    padding-bottom: 12rem;
+    padding-top: 0rem;
+}
+
+.background-section.what-people-saying {
+    background-color: #333341;
+    /*margin-top: -7rem;*/
+    margin-top: -5rem;
+    padding-bottom: 10rem;
+    clip-path: polygon(0% 5%, 100% 0%, 100% 100%, 0% 100%);
+}
+
+.background-section.take-a-tour-with-us-session {
+    margin-top: -8rem;
+    padding-bottom: 10rem;
+    clip-path: polygon(0% 2%, 100% 0%, 100% 100%, 0% 100%);
+}
+
+.background-section.what-people-saying.footerpart {
+    padding-top: 5rem;
+    margin-top: -7rem;
+}
+
+.background-section.news-and-events-session {
+    margin-top: -8rem;
+    padding-bottom: 10rem;
+    clip-path: polygon(0% 2%, 100% 0%, 100% 100%, 0% 100%);
+}
+
+.logo {
+    width: 4rem;
+    height: 4rem;
+}
+
+.black {
+    background-color: black;
+}
+
+.yellowish {
+    background-color: #99803e;
+}
+
+.bg-blue { 
+    background-color:#2F6080 !important;} 
+
+.bg-yellow { 
+    background-color:#99803e !important; }
+
+.bg-grey {
+    background-color: #333333 !important;
+}
+
+.bg-black {
+    background-color: #333341;
+}
+
+.take-a-tour-with-us-session{
+    background-color: #6E7788;
+}
+
+.white {
+    color: white;
+}
+
+.lora {
+    font-family: 'lora',serif;
+}
+
+.hero-image { 
+    -webkit-clip-path: polygon(0 23%, 100% 5%, 100% 85%, 0% 100%);
+    clip-path: polygon(0 0%, 100% 0%, 100% 88%, 0% 100%);
+    overflow: hidden;
+    display: block;
+    position:relative;
+    z-index: 2;
+    background-image: url("../img/backGround.jpg");
+    background-repeat:no-repeat;
+    background-position:center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    max-width: 'initial';
+}
+
+.mainTitle {
+    font-size: 31px;
+    line-height: 3rem;
+    height: 100%;
+}
+
+.travel-in-style{
+    margin-top: -4rem;
+}
+
+.greenhr{
+  -moz-border-bottom-colors: none;
+  -moz-border-image: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-top-colors: none;
+  /*border-color: #EEEEEE -moz-use-text-color #FFFFFF;*/
+  border-style: solid none;
+  border-width: 3px 0;
+  margin: 18px 0;
+  color:#99803e;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+
+.blackhr{
+  -moz-border-bottom-colors: none;
+  -moz-border-image: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-top-colors: none;
+  /*border-color: #EEEEEE -moz-use-text-color #FFFFFF;*/
+  border-style: solid none;
+  border-width: 3px 0;
+  margin: 18px 0;
+  color:black;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.card {
+    border: none !important;
+    
+}
+.card.bg-blue {
+    width: 100%;
+    height: 100%;
+}
+
+.card.bg-yellow {
+    width: 100%;
+    height: 100%;
+}
+
+.car1 {
+    height: 100%;
+    width: 100%;
+} 
+
+.car2 {
+    height: 100%;
+    width: 100%;
+} 
+.top-container{
+    margin-bottom: 2rem;
+    margin-top: 3rem;
+}
+
+.bottom-container {
+    margin-top: 2rem;
+}
+
+.top-container.events-coming-up{
+    margin-bottom: 3rem;
+    margin-top: 0rem;
+}
+
+.hero-image-text-and-button{
+    margin-top: 12rem;
+}
+
+.three-columns-container .row .sm-paragraph {
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+
+/*Simon css below*/
+
+.card-deck {
+    margin-top: 3rem;
+}
+.tourWithUs {
+    margin-top: 4rem;
+}
+.card-deck-tourWithUs .card {
+    background-color: transparent;
+}
+
+.card-deck-tourWithUs .card-block {
+    padding: 0 0 20px 0;
+    background-color: rgb(148, 159, 179);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.news-and-events-session {
+    background-color: #333333;
+}
+
+.card-deck-tourWithUs .card-title {
+    background-color: maroon;
+    justify-content: center;
+    display: flex;
+    height: auto;
+    margin: auto;
+    padding: 20px 10px 20px 10px;
+}
+
+.card-deck-tourWithUs .card-text {
+    padding: 20px;
+}
+
+.card-deck-tourWithUs .btn {
+    padding: 15px 30px 15px 30px;
+    color: white;
+    background-color: transparent;
+    border: 1px solid;
+}
+
+.news-and-events {
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+}
+
+.news-events {
+    margin-bottom: 50px; 
+}
+.news-events .btn {
+    background-color: gold;
+}
+.news-events img {
+    width: 100%;
+}
+
+/*simon css ends here*/
+
+/*Khaled css below*/
+#what{
+    background: #333341;
+    color:white;
+    font-family: 'lora',serif;
+    margin-top: 4rem;
+}
+
+.whatPeople{
+    padding-top: 26px;
+}
+
+.quote1 {
+    color: #99803e;
+    font-size: 166px;
+    font-family: 'lora',serif;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+.quote2 {
+    color: #99803e;
+    font-size: 166px;
+    font-family: 'lora',serif;
+    margin-top: 20px;
+    box-sizing: border-box;    
+}
+
+.bluehr{
+  -moz-border-bottom-colors: none;
+  -moz-border-image: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-top-colors: none;
+  border-color: #EEEEEE -moz-use-text-color #FFFFFF;
+  border-style: solid none;
+  border-width: 3px 0;
+  margin: 18px 0;
+  color:#728dd9;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.yellowhr{
+  -moz-border-bottom-colors: none;
+  -moz-border-image: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-top-colors: none;
+  border-color: #EEEEEE -moz-use-text-color #FFFFFF;
+  border-style: solid none;
+  border-width: 3px 0;
+  margin: 18px 0;
+  color:#99803e;
+  margin-left:auto;
+  margin-right:25px;;
+}
+
+.card-text {
+    font-size: 17px;
+}
+
+p{
+    color: white;
+    font-size: 22px;   
+}
+
+.author{
+    color: #99803e ;
+    font-size: 20px;  
+}
+
+#visit{
+    border-radius: 0;
+    margin-top: -100px;
+}
+
+#contact{
+    border-radius: 0;
+    margin-top: 30px;
+    background-color:transparent;
+    border-color:white;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-bottom: 50px;
+    border-width: 2px;
+    font-size: 27px;
+    margin-bottom: 100px;
+}
+/*I dont know how to add a border when hovering everything moves*/
+#contact:hover{
+    border-radius: 0;
+    margin-top: 30px;
+    background-color:transparent;
+    border-color:grey;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-bottom: 50px;
+    border-width: 2px;
+    font-size: 27px;
+    margin-bottom: 100px;
+    box-shadow: solid grey;
+    box-sizing: border-box;
+    color: grey;
+}
+
+#contactus{
+    -webkit-clip-path: polygon(0 23%, 100% 5%, 100% 85%, 0% 100%);
+    clip-path: polygon(0 17%, 100% 5%, 100% 85%, 0% 100%);
+    overflow: hidden;
+    display: block;
+    position:relative;
+    z-index: 2;
+    background-image: url('http://freebigpictures.com/wp-content/uploads/sunset-forest.jpg');
+    background-repeat:no-repeat;
+    background-position:center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    max-width: 'initial';
+    padding-bottom: 8rem;
+    padding-top: 3rem;
+    margin-top: -9rem;
+}
+
+.contactlist{
+    color:white;
+    font-family: 'lora',serif;
+    padding-top: 20px;
+}
+
+h1.contactlist.first{
+    margin-top: 100px;
+}
+.downhr{
+    -moz-border-bottom-colors: none;
+    -moz-border-image: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #EEEEEE -moz-use-text-color #FFFFFF;
+    border-style: solid none;
+    border-width: 3px 0;
+    margin: 18px 0;
+    color:#99803e;
+    margin-left:auto;
+    margin-right:25px;;
+    margin-top:16px;
+}
+
+.norotate1 {
+    padding-bottom: 5px;
+    margin-top: 18rem;
+    margin-bottom: -12rem;
+}
+
+.norotate2 {
+    margin-bottom: 7rem;
+}
+
+#footer{
+    width: 80%;
+    margin: auto;
+    margin-top: 130px;
+    display:flex;
+}
+
+#rights{
+    width: 80%;
+    margin: auto;
+    display:flex;
+}
+
+.icons{
+    font-size: 42px;
+    color:#99803e;
+    padding-right:28px;
+}
+
+#copywright{
+    font-size:12px;
+}
+
+.brownish{
+    color:#99803e;
+}
+
+.footeradjust{
+    font-size:18px;
+    font-family: "lato";
+}
+
+#tour {
+    margin-bottom: 30px;
+}
+
+.greybox-and-img {
+    margin-bottom: 3rem;
+}
+
+@media screen and (min-width:576px) {
+.norotate1 {
+    padding-bottom: 100px;
+    margin-top: 17rem;
+    margin-bottom: 0rem;
+}
+
+.norotate2 {
+    /*margin-bottom: 7rem;*/
+    display: none;
+}
+.travel-in-style {
+    margin-top: 3rem;
+}
+
+.card-deck.card-deck-tourWithUs {
+    display: block;
+}
+}
+
+@media screen and (min-width:768px) {
+
+.norotate1 {
+    padding-bottom: 100px;
+    margin-top: 14rem;
+    margin-bottom: 5rem;
+}
+
+.norotate2 {
+    /*margin-bottom: 7rem;*/
+    display: none;
+}
+.travel-in-style {
+    margin-top: 3rem;
+}
+
+.card-deck.card-deck-tourWithUs {
+    display: flex;
+}
+}
+
+@media screen and (min-width:992px) {
+
+.norotate1 {
+    padding-bottom: 100px;
+    margin-top: 18rem;
+    margin-bottom: 8rem;
+    margin-left: 4rem;
+}
+
+.norotate2 {
+    /*margin-bottom: 7rem;*/
+    display: none;
+}
+.travel-in-style {
+    margin-top: 3rem;
+}
+}

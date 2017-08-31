@@ -1,0 +1,769 @@
+
+.header-container .logoTitle.lora {
+    color: white;
+    width: 20rem;
+    font-size: 37px;
+    padding-top: 14px;
+}*/
+
+
+.hero-image-text {
+    position: absolute;
+    top: 15rem;
+    left: 50px;
+}
+
+.navbar {
+    background-color: #99803e;
+}
+
+.navbar > a {
+    text-decoration: none;
+    padding-left: 3px;
+    padding-right: 3px;
+    font-size: 18px;
+    margin-left: -18px;
+}
+
+.bottomSection2.col-12 {
+    margin-bottom: 2rem;
+}
+
+.bottomSection1 {
+    margin-bottom: 2rem;
+}
+
+.card {
+    width: 49rem;
+}
+
+.card-text {
+    font-size: 18px;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+
+p {
+    font-size: 18px;
+    padding-top: 2rem;
+}
+
+.card-title {
+    font-size: 30px;
+    height: 1px;
+}
+
+.travel-in-style h1 {
+    color: white;
+    margin: 10px;
+    font-size: 26px;
+}
+
+.section-title {
+    font-size: 47px;
+    color: white;
+}
+
+
+.hero-image .btn {
+    width: 13rem;
+    height: 4rem;
+    padding-top: 22px;
+}
+
+h3 {
+    font-size: 14px;
+}
+
+
+
+
+.travel-in-style {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+    height: 14rem;
+    margin-bottom: 8rem;
+}
+
+p.titleHeading {
+    font-size: 24px;
+    margin-left: 0rem;
+}
+
+.bottomSection.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 15.5rem;
+}
+
+.darked {
+    background-color: darkred;
+}
+
+.navbar-nav {margin-left: 29rem;}
+
+#navbarSupportedContent {
+    justify-content: center;
+}
+.white {
+    color: white;
+}
+
+.bottomSection-button {
+    width: 12rem;
+    margin-top: 7rem;
+    height: 3.5rem;
+}
+    
+.BackGroundBox {
+    width: 50rem;
+    height: 17rem;
+    padding-left: 13px;
+    padding-top: 26px;
+    margin-bottom: 9rem;
+}
+
+.Row {
+    width: 100%;
+    height: 31%;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.card {
+    border: none;
+}
+
+/*
+* {
+    border: 1px solid yellow;
+}*/
+
+.header-container {
+    display: none;
+}
+
+.navbar-brand img{width: 27px;}
+
+.navbar-brand .logo {display:inline-block;margin-right: 0px;padding-top: 0px;margin-top: -6px;} 
+.navbar-brand .logoTitle {display:inline-block;} 
+
+h1 {font-size: 1.5rem;}
+
+.navbar-brand {
+    margin-left: -1px;
+}
+
+.header-container {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    padding: 1px;
+}
+
+.header-container img.logo {
+    width: 2rem;
+    height: 2rem;
+    margin-top: 10px;
+    margin-left: 7px;
+}
+
+.header-container .logoTitle.lora {
+    color: white;
+    width: 17rem;
+    font-size: 21px;
+    padding-top: 15px;
+}
+
+.hero-image {
+    position: relative;
+    background-image: url("../img/backGround.jpg");
+    -webkit-clip-path: polygon(0 23%, 100% 5%, 100% 85%, 0% 100%);
+    clip-path: polygon(0 0%, 100% 0%, 100% 79%, 0% 93%);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 490px;
+}
+
+.hero-image-text {
+    position: absolute;
+    top: -22rem;
+    left: -6px;
+    /*width: 10rem;*/
+    /* justify-content: center; */
+    /* display: flex; */
+    /* flex-direction: column; */
+}
+
+.navbar {
+    background-color: #99803e;
+}
+
+/*
+.navbar > a {
+    text-decoration: none;
+    padding-left: 3px;
+    padding-right: 3px;
+    font-size: 18px;
+    margin-left: -18px;
+}*/
+
+/*
+.bottomSection2.col-12 {
+    margin-bottom: 2rem;
+}*/
+/*
+.bottomSection1 {
+    margin-bottom: 2rem;
+}*/
+
+.card {
+    width: 20rem;
+    height: 40rem;
+    border: none;
+}
+
+.card-text {
+    font-size: 18px;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+
+p {
+    font-size: 18px;
+    padding-top: 2rem;
+}
+
+.card-img-top {
+    width: 285px;
+    height: 200px;
+}
+.visit-us-on {
+    margin-left: 2.4rem;
+}
+
+
+
+
+.img-and-title-group .card-title {
+    font-size: 27px;
+    height: 45px;
+    background: #a50a06;
+    padding-top: 8px;
+}
+
+.travel-in-style h1 {
+    color: white;
+    margin: 10px;
+    font-size: 26px;
+}
+
+.news-events-title {
+
+}
+
+.travel-in-style {
+    margin-top: -20rem;
+}
+
+.section-title {
+    font-size: 47px;
+    color: white;
+}
+
+.mainTitle {
+    font-size: 30px;
+    line-height: 2rem;
+    width: 10rem;
+}
+
+.lora {
+    font-family: 'lora',serif;
+}
+
+.hero-image .btn {
+    width: 13rem;
+    height: 4rem;
+    padding-top: 22px;
+}
+
+h3 {
+    font-size: 14px;
+}
+
+
+.greenhr{
+  -moz-border-bottom-colors: none;
+  -moz-border-image: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-top-colors: none;
+  border-color: #EEEEEE -moz-use-text-color #FFFFFF;
+  border-style: solid none;
+  border-width: 3px 0;
+  margin: 18px 0;
+  color:#E1D259;
+  margin-left:auto;
+  margin-right:25px;
+  width: 100%;
+}
+
+.bluehr{
+ -moz-border-bottom-colors: none;
+  -moz-border-image: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-top-colors: none;
+  border-color: #EEEEEE -moz-use-text-color #FFFFFF;
+  border-style: solid none;
+  border-width: 3px 0;
+  margin: 18px 0;
+  color:#2F6080;
+  margin-left:auto;
+  margin-right:25px;
+  width: 100%;
+}
+
+.three-columns-container {
+    height: 1%;
+}
+
+.yellowhr{
+  -moz-border-bottom-colors: none;
+  -moz-border-image: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-top-colors: none;
+  border-color: #EEEEEE -moz-use-text-color #FFFFFF;
+  border-style: solid none;
+  border-width: 3px 0;
+  margin: 18px 0;
+  color:#99803e;
+  margin-left:auto;
+  margin-right:25px;
+  width: 100%;
+}
+.cars {
+    height: 270px;
+    width: 20.5rem;
+} 
+
+.cars.above {
+    margin-left: -1rem;
+}
+    
+.cars.below {
+    margin-left: -1rem;
+}
+/*
+.bottomSection.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 15.5rem;
+}*/
+/*
+.darked {
+    background-color: darkred;
+}*/
+
+.navbar-nav {margin-left: 29rem;}
+
+#navbarSupportedContent {
+    justify-content: center;
+}
+.white {
+    color: white;
+}
+
+.yellowish {
+    background-color: #99803e;
+}
+
+/*    
+.BackGroundBox {
+    width: 50rem;
+    height: 17rem;
+    padding-left: 13px;
+    padding-top: 26px;
+    margin-bottom: 9rem;
+}*/
+/*
+.Row {
+    width: 100%;
+    height: 31%;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: row;
+}*/
+
+.blue {
+    background-color:#2F6080;
+}
+
+.background-color-blue {
+    background-color: #2F6080;
+    padding-top: 18px;
+    margin-bottom: -16px;
+}
+
+.background-colour-grey {
+    background-color: #2F4F4F;
+    padding-top: 21px;
+}
+
+.background-color-darkgrey{
+background-color: #333333;
+}
+
+.take-a-tour-with-us h1{
+    font-size: 1.5rem;
+    padding-top: 2rem;
+}
+
+
+* {box-sizing: border-box;
+}
+
+
+h1 {font-size: 1.5rem;}
+
+.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+
+  > .col,
+  > [class*="col-"] {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+
+#imgSimon{
+    box-sizing: border-box;
+    margin: 20px;
+    height: 262px;
+    background: url('http://www.equineworld.co.uk/media/k2/items/cache/665e3353c5a0a1298b58f0408e39e998_L.jpg');
+}
+#titlesSimon{
+margin: 20px;
+    height: 262px;
+    box-sizing: border-box;
+
+}
+
+
+
+/*All media query below*/
+
+@media screen and (min-width: 370px) {
+
+.hero-image-text-and-button{
+    margin-top: 15rem;
+}
+
+.hero-image {
+    position: relative;
+    background-image: url("../img/backGround.jpg");
+    -webkit-clip-path: polygon(0 23%, 100% 5%, 100% 85%, 0% 100%);
+    clip-path: polygon(0 0%, 100% 0%, 100% 79%, 0% 93%);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 489px;
+}
+
+}
+
+@media screen and (min-width: 394px) {
+.hero-image-text-and-button{
+    margin-top: 15rem;}
+
+.hero-image {
+    position: relative;
+    background-image: url("../img/backGround.jpg");
+    -webkit-clip-path: polygon(0 23%, 100% 5%, 100% 85%, 0% 100%);
+    clip-path: polygon(0 0%, 100% 0%, 100% 79%, 0% 93%);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 565px;
+}
+
+.travel-in-style{
+    margin-top: -8rem;
+}
+}
+
+
+@media screen and (min-width: 425px) {
+
+.hero-image-text-and-button{
+    margin-top: 16rem;
+}
+
+.hero-image {
+    position: relative;
+    background-image: url("../img/backGround.jpg");
+    -webkit-clip-path: polygon(0 23%, 100% 5%, 100% 85%, 0% 100%);
+    clip-path: polygon(0 0%, 100% 0%, 100% 79%, 0% 93%);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 565px;
+}
+
+.travel-in-style{
+    margin-top: -8rem;
+}
+}
+
+
+@media screen and (min-width: 452px) {
+.hero-image-text-and-button {
+    margin-top: 16rem;
+}
+}
+
+
+@media screen and (min-width: 464px) {
+.hero-image-text-and-button{
+    margin-top: 17rem;
+}
+
+.hero-image {
+    position: relative;
+    background-image: url("../img/backGround.jpg");
+    -webkit-clip-path: polygon(0 23%, 100% 5%, 100% 85%, 0% 100%);
+    clip-path: polygon(0 0%, 100% 0%, 100% 79%, 0% 93%);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 592px;
+}
+
+.travel-in-style{
+    margin-top: -8rem;
+}
+}
+
+
+@media screen and (min-width: 478px) {
+.hero-image-text-and-button{
+    margin-top: 18rem;
+}
+
+@media screen and (min-width: 540px) {
+.hero-image-text-and-button {
+    margin-top: 20rem;
+}
+
+
+.hero-image {
+    position: relative;
+    background-image: url("../img/backGround.jpg");
+    -webkit-clip-path: polygon(0 23%, 100% 5%, 100% 85%, 0% 100%);
+    clip-path: polygon(0 0%, 100% 0%, 100% 79%, 0% 93%);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 549px;
+}
+
+.travel-in-style{
+    margin-top: 0rem;
+}
+
+
+}
+
+
+@media screen and (min-width: 575px) {
+.hero-image-text-and-button {
+    margin-top: 21rem;
+}
+
+.travel-in-style{
+    margin-top: -4rem;
+}
+
+.hero-image {
+    position: relative;
+    background-image: url("../img/backGround.jpg");
+    -webkit-clip-path: polygon(0 23%, 100% 5%, 100% 85%, 0% 100%);
+    clip-path: polygon(0 0%, 100% 0%, 100% 79%, 0% 93%);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 590px;
+}
+
+.travel-in-style{
+    margin-top: -4rem;
+}
+
+}
+
+@media screen and (min-width: 600px) {
+.hero-image-text-and-button {
+    margin-top: 25rem;
+}
+
+.travel-in-style{
+    margin-top: -4rem;
+}
+
+.hero-image {
+    position: relative;
+    background-image: url("../img/backGround.jpg");
+    -webkit-clip-path: polygon(0 23%, 100% 5%, 100% 85%, 0% 100%);
+    clip-path: polygon(0 0%, 100% 0%, 100% 79%, 0% 93%);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 662px;
+}
+
+.travel-in-style{
+    margin-top: -4rem;
+}
+}
+
+@media screen and (min-width: 720px) {
+.hero-image-text-and-button {
+    margin-top: 13rem;
+    width: 23rem;
+    margin-left: 0rem;
+}
+
+.travel-in-style{
+    margin-top: -15rem;
+}
+
+.mainTitle {
+    font-size: 33px;
+    line-height: 3rem;
+    height: 100%;
+}
+
+.hero-image {
+    position: relative;
+    background-image: url("../img/backGround.jpg");
+    -webkit-clip-path: polygon(0 23%, 100% 5%, 100% 85%, 0% 100%);
+    clip-path: polygon(0 0%, 100% 0%, 100% 79%, 0% 93%);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 710px;
+}
+}
+
+@media screen and (min-width: 767px) {
+.hero-image-text-and-button {
+    margin-top: 12rem;
+    margin-left: 0rem;
+}
+
+.bluebox-and-carimg .card {
+width: 12rem;
+}
+
+.bgimg-and-text {
+    height: 578px;
+}
+
+.travel-in-style{
+    margin-top: -4rem;
+}
+
+.car1 {
+  height: 270px;
+    width: 100%;
+    margin-left: 0rem; 
+}
+
+.car2 {
+     height: 270px;
+    width: 100%;
+    margin-left: 0rem;
+}
+
+}
+
+@media screen and (min-width: 991px) {
+.hero-image-text-and-button {
+    margin-top: 14rem;
+    margin-left: 0rem;
+}
+
+.travel-in-style{
+    margin-top: 0rem;
+}
+
+.mainTitle {
+    font-size: 40px;
+    line-height: 4rem;
+    height: 100%;
+}
+
+.bgimg-and-text {
+    height: 578px;
+}
+}
+
+@media screen and (min-width: 1199px) {
+.hero-image-text-and-button{
+    margin-top: 15rem;
+}
+
+.hero-image {
+    position: relative;
+    background-image: url("../img/backGround.jpg");
+    -webkit-clip-path: polygon(0 23%, 100% 5%, 100% 85%, 0% 100%);
+    clip-path: polygon(0 0%, 100% 0%, 100% 79%, 0% 93%);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 730px;
+    margin-top: -17
+}
+
+.travel-in-style{
+    margin-top: -8rem;
+}
+}
+
+
+
+@media screen and (min-width: 1200px) {
+.hero-image-text-and-button {
+    margin-top: 17rem;
+    /*/*margin-left: -8rem;*/
+}
+
+.travel-in-style{
+    margin-top: 10rem;
+}
+}
+
+@media screen and (min-width: 1275px) {
+.hero-image-text-and-button {
+    margin-top: 17rem;
+    /*/*margin-left: -8rem;*/
+}
+
+.travel-in-style{
+    margin-top: 10rem;
+}
+
+.car1 {
+    width: 50%;
+    height: 100%;
+}
+}
