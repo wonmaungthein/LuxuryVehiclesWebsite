@@ -18,8 +18,11 @@
   "homepage": "https://github.com/wonmaungthein/LuxuryVehiclesWebsite#readme",
   "dependencies": {
     "bootstrap": "^4.0.0-beta",
+    "debug": "^4.0.1",
     "express": "^4.15.3",
     "express-formidable": "^1.0.0",
-    "express-handlebars": "^3.0.0"
+    "express-handlebars": "^3.0.0",
+    "forwarded": "^0.1.2",
+    "fresh": "^0.5.2"
   }
 }
